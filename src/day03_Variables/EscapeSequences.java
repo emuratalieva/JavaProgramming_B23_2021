@@ -1,10 +1,10 @@
 package day03_Variables;
 
 /*
-\n: new line (Enter)
-\t: paragraph space (tab)
-\": double quote
-\\: back slash
+    \n: new line (Enter)
+    \t: paragraph space (tab)
+    \": double quote
+    \\: back slash
  */
 
 public class EscapeSequences {
