@@ -11,7 +11,7 @@ public class CalculateSquare {
 
         System.out.println(area);
         System.out.println(perimeter);
-        
+
 
     }
 
