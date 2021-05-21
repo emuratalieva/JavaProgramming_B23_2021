@@ -12,6 +12,13 @@ public class SalaryCalculator {
 
         System.out.println(salary);
 
+        double taxRate = 0.24;
+        double totalTax = salary * taxRate;
+        double salaryAfterTax = salary - totalTax;
+
+        System.out.println(salaryAfterTax);
+
+
 
     }
 
