@@ -3,7 +3,8 @@ package day03_Variables;
 /*
 \n: new line (Enter)
 \t: paragraph space (tab)
-\"
+\": double quote
+\\: back slash
  */
 
 public class EscapeSequences {
@@ -29,6 +30,12 @@ public class EscapeSequences {
         System.out.println("-----------------------------------------------");
 
         System.out.println("My favorite TV series is \"Game of Throne\"");
+
+
+        System.out.println("--------------------------------");
+
+        System.out.println("/");
+        System.out.println("\\");
 
     }
 
