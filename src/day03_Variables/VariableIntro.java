@@ -20,6 +20,18 @@ public class VariableIntro {
         System.out.print("My Birth Year: ");
         System.out.println(myBirthYear);
 
+        // salary: 100K
+
+        // short salary = 100000;
+        int salary = 500000;
+
+       // int number = 9999999999;
+        long number = 999999999;
+        System.out.println(number);
+
+        System.out.println(5555555555L);
+
+
 
     }
 
