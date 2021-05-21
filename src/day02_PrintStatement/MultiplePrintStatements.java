@@ -8,8 +8,6 @@ public class MultiplePrintStatements {
         System.out.println("Today is Thursday");
         System.out.println("How are you?");
 
-
-
     }
 
 
