@@ -37,6 +37,8 @@ public class EscapeSequences {
         System.out.println("/");   // front slash
         System.out.println("\\");  // back slash
 
+        System.out.println("'Java'");
+
     }
 
 }
