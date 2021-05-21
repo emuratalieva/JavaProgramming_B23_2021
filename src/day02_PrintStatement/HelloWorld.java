@@ -10,3 +10,11 @@ public class HelloWorld {
 
 
 }
+
+/*
+05/20/2021
+Struggles:
+        1. creating package
+        2. creating class
+        3. creating main method
+ */
