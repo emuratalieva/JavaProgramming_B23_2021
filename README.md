@@ -1,2 +1,2 @@
-Cybertek Batch 23 
-Java Programming Course
+**Cybertek Batch 23** 
+_Java Programming Course_
