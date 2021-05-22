@@ -1,0 +1,231 @@
+05/21/2021
+Topics: Comments
+		println vs print
+		Escape sequences
+		Variables Intro
+
+Warmup tasks:
+	1. create a class named Square and print:
+
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                            *  *  *  *  *  *  *  *
+                           
+                            
+    2. create a class named EmployeeInfo  and print:    
+                        your company's name
+                        your name
+                        your EmployeeId
+                        your JobTitle
+                        your Salary
+
+    3. Go to Canvas -> B23 Java Programming -> Modules -> java Programming Lab -> 
+    			1. RplitAccount Registration: register a Repl.it account
+									fill out:
+    										1. usernmae: can be any name (make sure write it down)
+    										2. email: your onw email
+    										3. password: make sure to write down your password
+
+									Then check your email to complete registration.
+											you will be asked to give:
+													Firts & Last Names: MUST be your real names
+
+
+								DUE BY 11:59 PM EST
+
+
+
+backtick: ```
+
+how to start snippet in discord:
+			1. type ``` to open snippet
+			2. type ``` to close snippet
+
+
+Comments: giving notes
+
+	single line comment:  // comment
+
+	multi-line comment:
+							/*
+								comemnt1
+								comment2
+								...
+							*/
+
+
+Task:
+	create a class named AboutMe
+		write a pragarph to tell us about your favrotie:
+				Music
+				Movies
+				Books
+
+
+Triangle:
+	
+					^
+                   / \
+                  /   \
+                 /     \
+                /       \
+                ---------
+
+Diamond:
+		
+					^
+	               / \
+	              /   \
+	             /     \
+	            /       \
+	            ---------
+	            \       /
+	             \     / 
+	              \   /
+	               \ /
+	                v 
+
+
+	                ^
+		           / \
+		          / * \
+		         / * * \
+		        / * * * \
+		        ---------
+		        \ * * * /
+		         \ * * / 
+		          \ * /
+		           \ /
+		            v  
+
+
+
+
+Variable: makes the data reusable
+
+	delare variable:
+		DataType variableName =  Data;
+
+		DataType decides what can be stored into variable
+
+
+primitives data types:
+		
+		numerical primitives: byte, short, int, long, float, double
+
+				double > float > long > int > short > byte
+
+				larger primitive type CAN NOT be assigned to the smaller primitive type
+
+			integer numbers: byte, short, int(more prefered), long 
+
+							long > int > short > byte
+
+			decimal numbers: float, double (more prefered)
+
+
+			prefered primitives:
+				int: for all whole numbers
+				double: for all the decimal numbers
+
+
+
+4, 5
+
+
+SlarayCalculator:
+		hourlyRate
+		weeklyHours
+
+		salary = hourlyRate * weeklyHours * 52;
+
+
+
+shortcut:
+	
+	print vairable:
+		soutv
+
+
+Summary:
+	
+	JDK
+	JVM
+	Javac
+	JRE
+
+	src
+	package
+	class
+
+	main method
+	println: appends new line at the end
+	print: does not append new line at the end
+
+	\n
+	\t
+	\"
+	\\
+
+	Comments: 
+			single line comment: // comment goes here
+			multiline comment: 
+								/*
+									comments goes here
+
+								*/
+
+	variables: reusable
+
+			DataType  variableName = Data; 
+
+
+	primitives:	double > float > long > int > short > byte
+
+			for integer numbers: int
+			for decimal numbers: double
+
+		double	taxRate =  0.5;
+		int		age = 15;
+
+
+		int a = 10;
+		double b = a;  ==> 10.0
+
+		long c = b;
+
+
+
+Tasks:
+	write a program that can convert kg (int) to pounds (double)
+	write a program that can convert gallon (int) to Liter (double)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
