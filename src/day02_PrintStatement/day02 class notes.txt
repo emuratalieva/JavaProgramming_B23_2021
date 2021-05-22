@@ -1,0 +1,93 @@
+05/20/2021
+Topics: Print statemens
+		Comments
+
+Warmup task:
+	Task01:
+        1. create a sub folder named "day02" under the folder "Java Programming B23"
+        2. go to Canvas -> Java Programming -> Modules -> Day 02 
+        			download the day02 pdf file and save it into the sub folder Day02
+
+
+src: used for storing packages
+
+package: used for storing java files
+		right click src -> new -> package
+
+java file: 
+	right click package -> new -> Java Class
+
+
+class: where we write our codes within the body of the class {}
+
+main method: runs the java file
+
+		public static void main(String[] args){}
+
+		makes the class runnable
+
+print statement: prints the output to console
+		
+		System.out.println("");
+
+
+rename:
+	right -> refector -> rename
+
+
+shortcuts:
+	main method:
+		type "main" + Enter
+
+	print statement:
+		type "sout" + Enter
+
+	formatting codes:
+		command + option + L
+			or
+		ctrl + alt + l
+
+
+JDK: Java Developmnet Kit
+
+JRE: Java Runtime Environment
+		System library that contains the resources to write our source code
+
+Javac: Java Compiler
+	translates source codes to byte codes
+
+
+JVM: Java Virtual Machine
+		responsibility running the byte codes
+
+
+IDE: integrated development environment
+
+
+byte code: the code that computer understands
+
+		
+
+
+JDK class:
+	print the followingoutputs:
+		JDK: Java Developmnet Kit
+		JRE: Java Runtime Environment
+		Javac: Java Compiler
+		JVM: Java Virtual Machine
+
+
+Tasks:
+		
+		******
+		*    *
+		*    *
+		*    *
+		******
+
+
+		  *
+		 * *
+		*   *
+	   *  *  *
+
