@@ -34,6 +34,10 @@ public class EmployeeInfo {
         //fullName' job title is jobTitle
         System.out.println(fullName + " is " +jobTitle );
 
+        System.out.println(fullName + " is full time employee: " +isFullTime);
+        System.out.println(fullName+ " is married: "+isMarried);
+        System.out.println(fullName +" is making $ "+salary);
+
 
 
     }
