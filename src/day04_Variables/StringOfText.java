@@ -29,7 +29,24 @@ public class StringOfText {
         System.out.println(n1 * 2);
      //   System.out.println(s1 * 2);
 
+        System.out.println("----------------------------");
+        int age = 40;
 
+        String sentence ="My age is: "+age;
+
+        System.out.println(sentence);
+
+                //My age is: 21
+
+        System.out.println("12"+1); // concatenation: 121
+        System.out.println(12+1); // addition: 13
+
+        System.out.println("-----------------------");
+        int number = 5000;
+
+        System.out.println("number = " + number);
+        
+        
 
     }
 
