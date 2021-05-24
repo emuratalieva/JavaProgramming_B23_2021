@@ -43,7 +43,33 @@ public class ConcatenationPractice {
 
 
         // 100 * 200 = 20000
-        System.out.println(a + " * " + b +" = " + multiplication );
+        System.out.println(a + " * " + b + " = " + multiplication );
+
+        System.out.println("-----------------------------------------------");
+        String name = "Daniel";
+        String favoriteMusic = "pop music";
+        String favoriteBook = "How to Win Friends";
+        String favoriteSeries = "The walking dead";
+
+        System.out.println("\tHello my name is " + name + "\n my favorite music is \""
+                + favoriteMusic +"\", my favorite book title is \"" + favoriteBook
+                + "\"\n my favorite TV series is \"" +favoriteSeries +"\"");
+
+        System.out.println("----------------------------------------------------");
+
+        String today = "Monday";
+        String todayClass = "Java";
+        String tomorrow = "Tuesday";
+        String tomorrowClass = "Selenium" ;
+
+        System.out.println("Today is " + today + ", today we have " + todayClass + " class.");
+        System.out.println("Tomorrow is "+tomorrow+", tomorrow we will have " +tomorrowClass +" class.");
+
+
+
+
+
+
 
 
 
