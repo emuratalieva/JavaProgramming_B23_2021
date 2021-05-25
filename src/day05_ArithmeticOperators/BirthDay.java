@@ -4,7 +4,7 @@ public class BirthDay {
 
     public static void main(String[] args) {
         String name = "Tugba",
-                birthMonth = "May";
+               birthMonth = "May";
 
         int birthDay = 16,
                 birthYear = 1992;
