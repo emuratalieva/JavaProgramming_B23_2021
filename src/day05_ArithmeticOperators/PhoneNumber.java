@@ -3,13 +3,12 @@ package day05_ArithmeticOperators;
 public class PhoneNumber {
 
     public static void main(String[] args) {
+
         int countryCode = 45,
-            areaCode = 405,
-            localNumber = 123456;
+                areaCode = 405,
+                localNumber = 123456;
 
-        System.out.println("+" + countryCode+"("+areaCode+")-" + localNumber);
-
-
+        System.out.println("+" + countryCode + "(" + areaCode + ")-" + localNumber);
 
 
     }
