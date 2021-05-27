@@ -79,6 +79,44 @@ Primitive Castings: converting one primitive type to another
 
 
 
+10 + 20 = 30
+-10 + 20 = 10
+
+-1000 > 0 ==> false
+
+
+unary operators:
+	+: positive
+	-: negative
+	++: increment. increases the value by 1
+	--: decreament. decreases the value by 1
+
+	2 types of increament/decreament:
+
+		pre: change the value by 1 immediately
+
+			++b
+			--c
+
+		post: first pass the current value, then change it by 1
+
+			b++
+			c--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
