@@ -1,0 +1,84 @@
+05/28/2021
+Topics: 
+		Shorthand Operators: =, +=, -=, *=, /=, %=
+		relational Operators: >, <, >=, <=, ==, !=
+		Logical Operators: ||, &&, !
+
+package name: day07_ShortHand_Relational
+
+warmup tasks:
+	1. write a program that can swipe two variables' value by using a temporary variable
+			ex:
+				if a= 10, b=15
+
+				output:
+					a = 15
+					b = 10
+
+	2. manually calculate the following code fragements:
+
+                1. int a = 100;
+                   int b = -a++ + ++a - a-- * a-- % 2
+
+
+
+ShortHand: for numbers. re-assigns the variable
+	=: asisgnement
+		int a = 5;
+			a = 10;
+			sout(a); // 10
+
+
+	+=: addition assignement ( can be applicable to string)
+		a = 20;
+		a = a + 10;  ==   a+=10
+
+
+Relational Operators:
+	>: greater
+		10 > 10 ==> false
+
+	>=: greater or equal
+
+		 10 >= 10 ==> true
+
+	<: less
+
+	<=: less than or equal
+
+	==: equal
+
+	!=: not equal
+
+
+
+or logic: either. if either one is true, will return true
+	True: at least one condition is true
+	False: if both conditions are false
+
+	eiteher prime meber  or   price>= 25
+
+
+and logic: both. if both conditions are true, will return true
+	True: if both conditions are true
+	False: at least one condition is false
+
+	to Vote:
+		1. MUST be US citizen
+		2. at least 18 years old
+
+		Must be US citizen  OR  at least 18 years old
+
+
+
+
+
+
+
+
+
+
+
+
+
+
