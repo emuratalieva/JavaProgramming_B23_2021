@@ -52,7 +52,54 @@ public class ShortHandOperators {
 
         balance -= 1000;
         System.out.println("balance = " + balance);
+
+        System.out.println("----------------------------------");
+        // *=
+        double salary = 100000;
+       // salary = salary * 2;
+        salary *= 2;
+
+        System.out.println("salary = $" + salary);
+
+        salary *= 1.5;
+
+        System.out.println("salary = $" + salary);
         
+        //0.65
+        salary *= 0.65;
+        System.out.println("salary = " + salary);
+
+        System.out.println("----------------------------------");
+        // /=
+        double slices = 10; // 10.0
+     //  slices /= 0;
+        slices /=3;
+
+        System.out.println("slices = " + slices);
+
+       // System.out.println(10/0);
+
+        System.out.println("-----------------------------------");
+        // 105 cents ===> 4 quarters and 5 cents
+
+        int cents = 105;
+        int quarters = cents/25;
+
+        cents %= 25;
+
+        System.out.println("quarters = " + quarters);
+        System.out.println("cents = " + cents);
+
+        System.out.println("------------------------------------");
+
+        /*
+        remainder =  numerator - (denominator * whole number of division result)
+
+        10/4 ===> 2.5
+        remainder = 10 - (4 * 2) = 2
+         */
+
+
 
 
 
