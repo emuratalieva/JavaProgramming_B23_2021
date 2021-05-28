@@ -9,7 +9,7 @@ public class SwipeTwoNumbers {
         int c = a; // c= 200;
 
         a = b; // a = 300;
-        b = c; // b = 300;
+        b = c; // b = 200 ;
 
         System.out.println("a = " + a); // 300
         System.out.println("b = " + b); // 200
