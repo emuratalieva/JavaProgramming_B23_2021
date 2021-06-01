@@ -1,0 +1,7 @@
+06/01/2021
+Topics: 
+		1. Logical Operators
+		2. Single If Statements
+		3. If & else statetement (Maybe)
+
+package name: day08_ifStatements
