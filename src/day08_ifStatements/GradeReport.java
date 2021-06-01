@@ -13,7 +13,7 @@ public class GradeReport {
             System.out.println("Good job, You made a B");
         }
 
-        if(score>=70 && score <= 79){
+        if(score>=70 && score <= 79){ // if score is between 70 to 79:
             System.out.println("Good, You made a C");
         }
 
