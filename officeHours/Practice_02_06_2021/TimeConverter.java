@@ -26,6 +26,7 @@ public class TimeConverter {
 
 
 
+
         /*
         hours = inputSeconds/3600;    // hours = 1
 
@@ -36,8 +37,10 @@ public class TimeConverter {
 
         System.out.println(hours+" hours "+minutes+" minutes "+seconds+" seconds");
         */
+        // int inputSeconds=3695
 
-        hours = inputSeconds/3600;
+
+        hours = inputSeconds/3600; // 2
 
 
         // inputSeconds=inputSeconds%3600;   //  3695 sec    return us 95
