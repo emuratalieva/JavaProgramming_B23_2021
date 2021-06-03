@@ -14,6 +14,14 @@ public class MaximumNumber {
             System.out.println(num2+" is maximum");
         }
 
+        System.out.println("---------------------------------------");
+
+        if(num1 > num2){
+            System.out.println(num1+" is maximum");
+        }else{
+            System.out.println(num2+" is maximum");
+        }
+
 
     }
 

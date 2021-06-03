@@ -13,6 +13,15 @@ public class MinimumNumber {
             System.out.println(num2+" is minimum");
         }
 
+        System.out.println("--------------------------------------");
+
+        if(num1 < num2){
+            System.out.println(num1+" is minimum");
+        }else{
+            System.out.println(num2+" is minimum");
+        }
+
+
 
     }
 
