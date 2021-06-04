@@ -58,17 +58,36 @@ Tasks:
 If statemnts:
 	single if
 	if & else
-	multi-branch if
-	nested if
+	multi-branch if: 
+	nested if: pre-conditions
 
-Nested If:
+Nested If: if condition can be evaluated to multiple scenario
+
+		if(pre-condition){
+
+			if(condition1){
+				statement1
+			}else{
+				statement2
+			}	
+
+		}else{
+			 statement3
+		}
+
+
+		statement1: precondition & condition1 MUST be true
+		statement2: pre-condition MUST be true & condition1 is false
+		statement3: precondition MUST be false
 
 
 
+Task:
+	NamesOfMonth:  1~12
+	ConvertNumberToWords: 0~9
 
 
-
-
+come back at: 2:20 pm
 
 
 
