@@ -55,10 +55,10 @@ Tasks:
 				USE ONE PRINT STATEMENT ONLY
 	
 
-If statemnts:
-	single if
-	if & else
-	multi-branch if: 
+If statemnts: if the condition is true, the block gets executed
+	single if: 1 option/possibilities
+	if & else": 2 options/possibilities
+	multi-branch if: 3 or more options/possibilities
 	nested if: pre-conditions
 
 Nested If: if condition can be evaluated to multiple scenario
@@ -82,7 +82,7 @@ Nested If: if condition can be evaluated to multiple scenario
 
 
 
-Task:
+Tasks:
 	1. NamesOfMonth:  1~12
 	2. ConvertNumberToWords: 0~9
 
@@ -126,7 +126,39 @@ Task:
 			        teacher in charge - Mr. Watt
 
 
-come back at: 2:20 pm
+Ternary: shortcut of if statement
+
+		int number = 100;
+		String result = "";
+
+		if(number%2==0){ 
+			result = "Even";
+		}else{ 
+			result = "Odd";
+		}
+
+	String result = (number%2==0) ? "Even" : "Odd";
+
+	(condition)? means if yeyword
+	: means the else keyword
+	:(condition)? means else if
+
+
+Ternary Tasks:
+	EligibleToVote
+	EligibleToBuyAlcohol
+	PassOrFailed
+
+
+
+
+
+
+
+
+
+
+
 
 
 
