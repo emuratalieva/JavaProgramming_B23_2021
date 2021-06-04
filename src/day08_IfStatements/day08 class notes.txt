@@ -4,7 +4,7 @@ Topics:
 		2. Single If Statements
 		
 
-package name: day08_ifStatements
+package name: day08_IfStatements
 
 Office Hours: 3 ~ 5pm every wednesday
 

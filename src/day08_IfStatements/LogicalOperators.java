@@ -1,4 +1,4 @@
-package day08_ifStatements;
+package day08_IfStatements;
 
 public class LogicalOperators {
 
