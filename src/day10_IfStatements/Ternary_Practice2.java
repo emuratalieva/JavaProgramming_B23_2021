@@ -24,6 +24,7 @@ public class Ternary_Practice2 {
         System.out.println("------------------------------------------------------------");
         int score  = 100;
 
+        /*
         char grade = ' ';
         if(score >= 90){
             grade = 'A';
@@ -36,7 +37,9 @@ public class Ternary_Practice2 {
         }else{
             grade = 'F';
         }
+        */
 
+        char garde = 
 
 
     }
