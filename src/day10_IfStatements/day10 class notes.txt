@@ -32,12 +32,12 @@ warmup Tasks:
     			number = 10
 
 			output:
-				10
+				RA
 
 				number = 15
 
 			output:
-				15
+				FINRA
 
 	
 
