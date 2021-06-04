@@ -18,7 +18,7 @@ public class Ternary_Practice {
         int score = 80;
 
         System.out.println(    (score>=60) ? "Passed" : "Failed"    );
-        
+
 
 
 
