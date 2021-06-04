@@ -4,11 +4,11 @@ Topics: Nested If
 		Local Variables
 		Java Recap
 
-Package name: day10_NestedIf
+Package name: day10_IfStatements
 
 
 warmup Tasks:
-	1. 1. Campus time: User enters a time(hour in 24 hour format) and will be able to find out if the campus is open or not.
+	1.  Campus time: User enters a time(hour in 24 hour format) and will be able to find out if the campus is open or not.
 			Campus is open from 8 am(8) to 11 pm (23) If user enters a time within the open time they should see message: “open” 
 			but if the time entered is outside of operating hours they should see: “ closed”
 
@@ -19,7 +19,7 @@ warmup Tasks:
 						25% for salary of 80K to 99K
 						20% for salary of 79K or less
 
-				in addition,if the person is married, he/she will pay 5% less tax, otherwise pays 5% extra tax
+				in addition,if the person is married, he/she will pay 5% less tax
 
 	3. Write a function which prints out the number. but for number which is a multiple of 3, print "FIN" instead of the number
     and for number which is a multiple of 5, print "RA" instead of the number. and for number which is a multiple of both 3 and 5, print "FINRA" instead of the number.
@@ -39,7 +39,26 @@ warmup Tasks:
 			output:
 				FINRA
 
+				number = 8;
+
+			output:
+				8
+
 	
+
+If statemnts:
+	single if
+	if & else
+	multi-branch if
+	nested if
+
+Nested If:
+
+
+
+
+
+
 
 
 
