@@ -5,7 +5,7 @@ public class NameOfMonth {
     public static void main(String[] args) {
         int number = 10;  // 1 ~ 12
         String name = "";
-
+        
         if(number == 1){
             name = "Jan" ;
         }else if(number == 2){

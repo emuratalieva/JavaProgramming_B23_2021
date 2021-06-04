@@ -8,6 +8,7 @@ public class DaysInWeek {
 
         if (number >= 1 && number <= 7) {
 
+            /*
             if (number == 1) {
                 name = "Monday";
             } else if (number == 2) {
@@ -23,6 +24,10 @@ public class DaysInWeek {
             } else {
                 name = "Sunday";
             }
+
+             */
+            name = (number==1)? "Monday" :(number==2)? "Tuesday" :(number==3)?"Wednesday"
+                    :(number == 4)? "Thursday" :(number == 5)? "Friday" :(number==6)? "Saturday" : "Sunday";
 
         } else {
             name = "No Such A Day";

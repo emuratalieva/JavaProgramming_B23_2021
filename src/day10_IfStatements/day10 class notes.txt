@@ -143,6 +143,10 @@ Ternary: shortcut of if statement
 	: means the else keyword
 	:(condition)? means else if
 
+	if:  ()?
+	else:  :
+	else if:  :()?
+
 
 Ternary Tasks:
 	EligibleToVote
@@ -152,7 +156,9 @@ Ternary Tasks:
 
 
 
-
+Next Week: 
+	switch
+	scanner
 
 
 
