@@ -1,0 +1,58 @@
+06/07/2021
+Topics: Switch Statement
+
+package name: day11_Switch
+
+Warmmup tasks:
+	1. Given two values: yearly salary and credit score determine if you can get a loan.
+
+			    To be approve for the loan, print: "Loan Approved":
+				        Salary: above 60,000
+				        Credit Score: above 650
+			    	Otherwise print: "Loan Denied"
+
+			    	NOTE: MUST APPLY TERNARY
+
+	2. Given a sport you play at the community center you will have to pay some enterance fee. 
+
+				    Soccer or Tennis fee is: 100
+				    Otherwise fee is: 50
+
+				   NOTE: MUST APPLY TERNARY
+
+	3. write a program that checks for the bigger of 3 numbers.
+		you get 3 int variables with different values: n1 , n2 and n3
+			if n1 is biggest output: "n1 is bigger"
+			if n2 is biggest output: "n2 is bigger"
+			if n3 is biggest output: "n3 is bigger"
+
+			NOTE: MUST APPLY TERNARY
+
+	4. In Cybertek we have three batch types: US morning, US evening, EU.
+		Depending on a batch type (String) print information about the batch. 
+
+		First figure out is is a US batch or EU batch
+
+		    - for US batches:
+
+		        > Figure out is it a morning batch or evening batch
+		            > morning - print: Class times are 10-5 EST. M, T, Th, F.
+		            > evening - print: Class times are 7-10 EST. M, T, W, Th, S, S
+
+		    - for EU batches:
+
+		        > print: Class times are  10-5 EST. M, T, W, Th, F.
+
+        If Batch type is not EU or US, print Invalid Batch
+
+        		NOTE: MUST APPLY NESTED IF
+
+	5. write a program that can define the age groups of a person
+            age groups are:
+                    Teenager (< 21)
+                    Adult   (>=21 && <55 )    
+                    Senior  ( > 55 )
+
+             if age is negative or greater than 150, print invalid
+
+                  NOTE: MUST APPLY NESTED IF
