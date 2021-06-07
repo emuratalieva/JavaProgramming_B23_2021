@@ -94,18 +94,52 @@ switch statements: switch, case, default, break
 
 		}
 
+		case value MUST match with switch' dataType and Unique
+
+		break: used for exiting the switch
+				if we dont give the break statement in case blocks, the next block gets executed until reaches break statement or closing curly braces of switch
+
+		default: gets executed if none of the cases are matched
+				there can only be one default block
+
+		4 data types cannot be passed ins witch:
+				long, double, float, boolean 
+
+
+		|| logic we can use in the switch by declaring the cases back to back with break statement
+
+
+
+  10
+  10L
+
 
 
 in if: != , ==, >= , <=, >, < ....
 
 
 lunch break:
-	StatusCode: 
-	NameOfMonth: 1~12
+	1. StatusCode: 
+	2. NameOfMonth: 1~12
 
-	ONLY use one print statement 
+	3. a char variable named grade is given. use switch statement to print the following messages:
+			'A': excellent
+			'B': great job
+			'C': good
+			'D': passed
+			'F': failed
+			other wise: invalid
 
-come back at 2:20pm
+	4. Given two double variables n1, n2 and a char variable named operator. use swith statement to calculate the result of n1 & n2 based on the given operator
+		Valid operators are: -, +, *, /
+
+
+
+&&, ||
+
+
+
+
 
 
 
