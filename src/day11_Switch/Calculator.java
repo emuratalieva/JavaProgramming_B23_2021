@@ -6,7 +6,7 @@ public class Calculator {
         double n1 =100;
         double n2 = 2.5;
         double result =0 ;
-        char mathOperator = '*';  // +, -, *, /
+        char mathOperator = '&';  // +, -, *, /     ==
 
         switch (mathOperator){
 
@@ -27,7 +27,7 @@ public class Calculator {
                 break;
 
             default:
-                System.out.println("Invalid Operator");
+                System.err.println("Invalid Operator");
         }
 
 
