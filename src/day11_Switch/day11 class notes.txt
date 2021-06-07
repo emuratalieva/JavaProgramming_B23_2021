@@ -102,7 +102,7 @@ switch statements: switch, case, default, break
 		default: gets executed if none of the cases are matched
 				there can only be one default block
 
-		4 data types cannot be passed ins witch:
+		4 data types cannot be passed ins switch:
 				long, double, float, boolean 
 
 
