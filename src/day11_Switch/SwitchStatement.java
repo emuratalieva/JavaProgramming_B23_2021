@@ -3,9 +3,9 @@ package day11_Switch;
 public class SwitchStatement {
 
     public static void main(String[] args) {
-        int number = 8;
+       int  number = 5;
 
-        switch (number){
+        switch (number){   // 10, 10L. 0.5, 0.5d, 0.5F
             case 1:
                 System.out.println("Monday");
                 break;
@@ -24,7 +24,7 @@ public class SwitchStatement {
 
             case 5:
                 System.out.println("Friday");
-                break;
+                break; // case closed
 
             case 6:
                 System.out.println("Saturday");
@@ -35,8 +35,8 @@ public class SwitchStatement {
                 break;
 
             default:
-                System.out.println("Invalid");
-                break;
+                System.out.println("No Such A Day");
+
         }
 
 
