@@ -36,13 +36,22 @@ Scanner class: used for getting user inputs
 		declare scanner:
 			Scanner variableName = new Scanner(System.in);
 
+scanner methods:
+	
+	nextInt(): allows user to enter integer ONLY
+	nextDouble(): allows user to enter decimals 
 
-task:
+
+task: 
 	DaysInWeek: 1~7
 	NameOfMonth: 1~12
+	GradeReport: score
+				 grades: A, B, C, D, F
+
+	Circle: find the area and perimeter of circle 
 
 
-
+come back at 12:45
 
 
 
