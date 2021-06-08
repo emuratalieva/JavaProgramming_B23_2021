@@ -1,5 +1,5 @@
 06/08/2021
-Topics: Scanner
+Topics: Scanner Intro
 
 package name: day12_Scanner
 
@@ -16,6 +16,52 @@ Warmup tasks:
 
                   MUST use switch statement    
 
-    
+
+
+            divisble by 3:  3, 6, 9
+            divisble by 5:  5, 10
+
+
+Scanner class: used for getting user inputs
+		
+		presented in "java.util" package
+
+		syntax of import statement:
+
+			import packageName.className
+
+ 			import java.util.Scanner; 
+
+
+		declare scanner:
+			Scanner variableName = new Scanner(System.in);
+
+
+task:
+	DaysInWeek: 1~7
+	NameOfMonth: 1~12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
