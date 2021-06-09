@@ -1,0 +1,280 @@
+Day 2 
+
+Practice Topics 
+			
+
+				=== IF STATEMENTS SHORT QUIZ ====
+
+
+				---	CONTROL FLOW STATEMENTS ---
+					
+				Selection Statements :
+						- Single If Statements  
+						- If Else    
+						- Multi If   
+						- Nested If  
+						- Ternary if
+						- Switch Statements 
+
+				
+			
+				 ==== Create a package named "Practice_Date" under the folder "officeHours" ====
+
+
+			Topic :   Single_If : 
+
+					=================== Small Tasks ================================
+
+					1-Write an if statement that assigns 5 to x when y is equal to 20
+					2-Write an if statement that multiplies payrate by 1.5 if hours is greater than 40
+					3-Write an if statement that sets the variable fees to 50 if the boolean variable max is true
+				    4-Write an if statement that prints "Ideal Temp" if the temp is between 70 and 80
+				    5-Write an if statement that assigns 20 to the variable a if variable b is 50 AND c is greater than 100 
+
+				   
+
+				 Task : 	 Write a function:
+				    		 that, given a positive integer N  However, any number divisible by 2, 3 or 5 shouldbe replaced by the word  
+				    			
+				    			Codility -- 2
+				    			Test     -- 3
+				    			Coders   -- 5  
+
+				    			- If a number is divisible by more than one of the numbers:2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order.
+
+				    			EXPECTED 
+
+				    						 numbers divisible by both 2 and 3 should be replacée by CodilityTest
+				    						 INPUT : 6    OUTPUT :  CodilityTest
+				    			              
+				    			 			 numbers divisible by allthree numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
+				    			 			 INPUT : 15    OUTPUT :  CodilityTestCoders
+
+
+
+				    
+
+			Topic:   If_Else : 
+
+								=================== Small Tasks ================================
+
+
+						1 - /*
+					        Create a program that will accept a number and it will print this statements  according to condition ; 
+					        ( Scanner Class can be used )
+
+					        EXPECTED
+							        Input : 10    Output : This  is positive number 
+							        Input : -3    Output : This  is negative number 
+
+					         */
+							
+ 						2- Take values of length and width of a rectangle from user and check if it is square or not.
+					        ( Scanner Class can be used )
+
+ 						3- Write a program to print absolute vlaue of a number entered by user
+					        ( Scanner Class can be used )
+
+ 							INPUT : 15			EXPECTED : Absolute value is 15
+
+ 							INPUT : -54			EXPECTED : Absolute value is 54		
+
+
+ 						4- Create  program to check whether a character is an alphabet or not
+							An input character is an alphabet if it lies in between a-z or A-Z.
+
+							INPUT : '.'			EXPECTED : Your letter is not in alphabet
+
+ 							INPUT : 'a'			EXPECTED : Your letter is in alphabet		
+
+
+				Task : 		A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+							Create a quantity variable 
+							Suppose, one unit will cost 100.
+							Judge and print total cost for user.
+					        ( Scanner Class can be used )
+
+							INPUT for quantity :  5 		 							EXPECTED : No discount applied
+
+							INPUT for quantiy  :  15									EXPECTED : You get a discount of $discount and 																			   your total cost is $totalCost
+
+						    
+			Topic:   MultiBranch If  
+					
+
+					1- Given a character, the task is to check whether the given character is in upper case, lower case, or non-alphabetic 		character 
+
+							Input: ch = 'A'
+							Output: A is an UpperCase character
+
+							Input: ch = 'a'
+							Output: a is an LowerCase character
+
+							Input: ch = '0'
+							Output: 0 is not an aplhabetic character
+
+					
+					2- 	/*    ( Scanner Class can be used )
+
+
+							BMI (Body Mass Index): Program will ask user to enter their mass (kilogram) and their height (meters). 
+							Calculate their BMI and then print the appropriate message based on the provided values: 
+								All numbers taken as doubles
+								
+								—> BMI Formula: BMI = mass / height^2
+								—> Values:
+									
+									Less than 18.5 — Underweight
+									From 18.5 to 25 — Normal weight
+									From 25 to 30 — Overweight
+									More than or equal to 30 — Obese
+
+								 	Output :  Underweigth    or    Normal weight    or   etc.
+
+						 */
+
+				
+
+			Topic:   Nested If   
+			
+					1- /*    ( Scanner Class can be used )
+
+
+					        Create a program that accepts age and weight(kg) as int.
+
+					        If age greater than or equal 18 and weight greater than 50 kg give a message 
+					        	EXPECTED  :  "You are eligible to donate blood"
+					       
+					        If age greater than or equal 18 and weight smaller or equal than 50 kg give a message  
+					        	EXPECTED  :  "You are not eligible to donate blood"
+					       
+					        If age is smaller than 18 "Age must be greater than 18"
+					        	EXPECTED  :  "Age must be greater than 18"
+        
+      				   */
+
+      				2-  /*
+					        [Qualification For Army]
+
+					        Given information: citizenship(boolean), resident (boolean), and has high school diploma (boolean), 
+					        
+					        and age(int). Determine if the person is qualified to join the army.
+					       
+					        - The person must be a Citizen of the USA or a resident
+					        -> If not print: You must be a U.S. citizen or a resident
+					        
+					        - Their age must be between 18 and 35
+					        -> If not print: Your age must be between 18 to 35 years old
+					        
+					        - They must have a high school diploma
+					        -> If not print: You must have a high school diploma
+					       
+					        > If all the criteria is met print: You are qualified for the US Army
+
+					     */
+					     
+			Topic:   Ternary 			 
+
+			Topic:   Switch Statements 
+
+								=================== Small Tasks ================================
+
+					1-Create  a program that accepts animal as String
+
+							DOG 	- domestic animal
+							CAT 	- domestic animal
+							TIGER 	- wild  animal
+
+							For other animal - unknown animal
+
+							INPUT : DOG 		EXPECTED OUTPUT : DOG is domestic animal
+
+
+
+
+					2-Create  a program that accepts weather as String
+
+							According to weather user should see this messages 
+
+								sunny -- Go to Park 
+								hot   -- Go to swimming
+								windy -- Fly a kite
+								snow  -- Go snowboarding 
+
+							INPUT : sunny 		EXPECTED OUTPUT : The weather is sunny Lets Go to Park
+
+
+
+
+
+
+
+					Task  : Create  a program that accepts browserName and operatingSystem as String and isBrowserOpen as boolean
+
+				        If the Browser is closed, try to open the corresponding browsers in that operating system to run your code.   
+
+
+				        		=== These browsers can be opened in these operatingSystem ===
+
+				                    chrome   		    --- > mac - windows
+				                    chrome-headless 	--- > mac - windows
+				                    firefox-headless    --- > mac - windows
+				                    firefox             --- > mac - windows
+				                    ie 					--- > windows
+				                    edge 				--- > windows
+				                    safari 			    --- > mac
+				                    remote-chrome  		--- > mac - windows
+				                    
+				                    According to related browserName and operatingSystem it should give
+				                    
+				                    	"Browser is opened successfully with $browserName in $operatingSystem"
+
+				                    if operatingSystem does not support $browserName 
+
+				                    	"Your $operatingSystem doesn't support ie"
+
+				         If the Browser is already opened it should give an error message 
+
+				        	"Browser is already opened with $browserName in $operatingSystem"
+
+				                    EXAMPLES
+
+				                    INPUTS :                        EXPECTED OUTPUT : Browser is opened successfully with chrome in mac
+				                            isBrowserOpen=false
+				                            browserName=chrome
+				                            operatingSystem=mac
+				                            
+				                    INPUTS :                        EXPECTED OUTPUT : Browser is opened successfully with chrome in windows
+				                            isBrowserOpen=false
+				                            browserName=chrome
+				                            operatingSystem=windows
+				                            
+				                    INPUTS :                        EXPECTED OUTPUT : Your mac doesn't support ie
+				                            isBrowserOpen=false
+				                            browserName=ie
+				                            operatingSystem=mac
+				                            
+				                    INPUTS :                        EXPECTED OUTPUT : Your mac doesn't support edge
+				                            isBrowserOpen=false
+				                            browserName=edge
+				                            operatingSystem=mac
+				                            
+				                   INPUTS :                        EXPECTED OUTPUT : Your windows doesn't support safari
+				                            isBrowserOpen=false
+				                            browserName=safari
+				                            operatingSystem=windows
+				                            
+				                   INPUTS :                         EXPECTED OUTPUT : Browser is already opened with safari in mac
+				                            isBrowserOpen=true
+				                            browserName=safari
+				                            operatingSystem=mac
+
+				       
+
+				         */
+
+
+
+				         
+
+		
