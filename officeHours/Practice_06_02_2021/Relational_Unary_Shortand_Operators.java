@@ -1,4 +1,4 @@
-package Practice_02_06_2021;
+package Practice_06_02_2021;
 
 public class Relational_Unary_Shortand_Operators {
     public static void main(String[] args) {
