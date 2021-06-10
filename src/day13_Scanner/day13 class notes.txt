@@ -4,6 +4,7 @@ Topics: Scanner Methods
 package name: day13_Scanner
 
 warmup tasks:
+	CentsToDollars
 	1. Write a program that can convert cents to dollars, if there is any remainder include them in the result as cents
 			Ex:
 				Enter cents
@@ -16,9 +17,10 @@ warmup tasks:
 				300 cents equal to: 3 dolloars
 
 	2. Write a program thta can convert Miles to KM
+			1 mile = 1.609 km
 			Ex:
 				Enter miles:
-				10.0
+				10.0  
 
 				output:
 				16.09 kilometers
@@ -38,5 +40,43 @@ warmup tasks:
 			45
 
 			output:
+
+import statement:
+		
+		import package.class; // imports one class
+		import package.*; // wild import: imports all the classes from package
+
+		import java.util.Scanner;
+		import java.util.*;
+
+
+
+declare:
+	Scanner  scan =  new Scanner(System.in);
+
+
+Scanner methods:
+		
+		nextInt(): returns int
+		nextDouble(): returns double
+
+		nextBoolean(): return true/false
+
+		next(): returns string. ONLY takes the first word
+				DO NOT USE IT IF THE INPUT HAS MORE THAN ONE WORDS
+				WE ONLY USE WHEN WE NEED ONE WORD IN INPUT
+
+		nextLine(): returns string. Takes everything that scanner has. Even the Enter key
+				WE ONLY USE IT WHEN WE NEED MORE THAN ONE WORD IN INPUT
+
+				if netxLine() is being used after any other methods of scanner, we need to give one more nextLine method to clear the scanner memory
+
+
+
+
+
+
+
+
 
 
