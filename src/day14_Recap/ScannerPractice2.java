@@ -20,7 +20,7 @@ public class ScannerPractice2 {
                 +" and live with "+numberOfPeople +" people in your house which is in the "+zipCode+" area!"
             );
 
-
+        scan.close();
 
 
     }
