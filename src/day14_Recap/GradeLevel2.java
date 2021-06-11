@@ -8,12 +8,11 @@ public class GradeLevel2 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter your garde number:");
-        byte number =scan.nextByte();
+
         String gradeLevel = "";
         // switch does not accept: long, float, double, boolean
 
-
-        switch (number){
+        switch ( scan.nextByte()){
             case 1:
             case 2:
             case 3:
