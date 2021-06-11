@@ -23,7 +23,7 @@ public class ScannerPractice {
             System.err.println("Invalid Entry");
         }
 
-    scan.close();
+        scan.close();
 
     }
 
