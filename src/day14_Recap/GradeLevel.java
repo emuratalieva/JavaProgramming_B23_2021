@@ -12,7 +12,6 @@ public class GradeLevel {
         String gradeLevel = "";
 
         if(number >= 1 && number <= 18){
-
             gradeLevel = (number<= 5)? "Elementary school" :( number<= 8)? "Middle School"
                          :(number<=12)? "High school" :(number<= 16)? "College" : "Grad School";
 
@@ -21,7 +20,6 @@ public class GradeLevel {
         }
 
         System.out.println("grade level = " + gradeLevel);
-
         scan.close();
 
     }
