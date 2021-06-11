@@ -6,13 +6,13 @@ public class SwitchPractice {
 
     public static void main(String[] args) {
 
-        Scanner scan =new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("How many people do you live with?");
         int numberOfPeople = scan.nextInt();
 
-        if(numberOfPeople >= 1){
+        if (numberOfPeople >= 1) {
 
-            switch ( numberOfPeople ){
+            switch (numberOfPeople) {
                 case 1:
                 case 2:
                     System.out.println("Live with less than 3 people");
@@ -29,14 +29,12 @@ public class SwitchPractice {
                     System.out.println("Live with more than 6 people");
             }
 
-        }else{
+        } else {
             System.out.println("Invalid Number");
         }
 
 
-
-
-
+        scan.close();
 
 
     }
