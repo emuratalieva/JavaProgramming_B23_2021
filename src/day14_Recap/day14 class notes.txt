@@ -1,0 +1,37 @@
+06/11/2021
+Review Topics: 
+                If statements
+                Switch statement
+                Scanner
+
+package name: day14_Recap
+
+Warmup tasks:
+    1. PlaceAnOrder task:
+                Ask User to enter the prodcut name (multiple words)
+                Ask the user to enter the price  (double)
+                Ask the user to enter the quantity (int)
+                Ask the user to enter their first name (String, single word)
+
+            Print in the following format: 
+                Ex: 
+                    Input: "Apples" , 1.5, 5. "Luke"
+
+                    Output: 
+                        Luke, your order for 5 Apples has been places. Your total is 7.5.
+
+    2. Stock market 
+        - Ask the user how many total shares they have already? (int)
+            -> If the user gives 0 or give a negative number none of the rest condition should be executed 
+        - Ask the user how much their total value in the stock market is (double)
+        - Ask the user to enter the name of the company they have the most shares in (String, multiple words)
+        - Ask the user the value of those shares (double)
+        - Calculate and print the difference of the user's total stock market valued with the biggest share value 
+
+        - Print in the following format: 
+
+            "Your total stock market holding is $totalValue which is made up of $totalShareNumber. $companyName is the largest company holdings you have of $companyValue between $companyShares."
+
+            
+
+
