@@ -34,3 +34,10 @@ public class LetterOrDigitOrSpecialChar {
 
 
 }
+
+/*
+Given a  char variable determine if the character is letter or digit or special character.
+            Ex: 'b'  --> letter
+                '9'  --> digit
+                '!'  --> special character
+ */
