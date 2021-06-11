@@ -31,8 +31,7 @@ Warmup tasks:
             Ex: 
                 inputs: 100, 25000, Apple INC
 
-                output:
-                    "Your total stock market holding is $25000 which is made up of 100 shares. Apple INC is the largest company holdings"
+            "Your total stock market holding is $25000 which is made up of 100 shares. Apple INC is your company holdings"
 
 
 
