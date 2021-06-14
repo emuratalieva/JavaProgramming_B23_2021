@@ -9,14 +9,16 @@ public class Initials {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter your first name:");
-        String firstName = scan.next();
+        char f = scan.next().charAt(0);  // Daniel
 
         System.out.println("Enter your last name:");
-        String lastName = scan.next();
+        char l = scan.next().charAt(0);
         scan.close();
-
+/*
         char f = firstName.charAt(0);
         char l = lastName.charAt(0);
+
+ */
 
         String initial = f+"." +l;
 
