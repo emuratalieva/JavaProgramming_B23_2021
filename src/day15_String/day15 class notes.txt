@@ -57,6 +57,21 @@ String methods:
 
 		length(): returns total number of characters in the string.  retunrs it as int
 
+		toLowerCase(): returns new String with lowercases of old string characters
+
+		toUpperCase(): returns new String with uppercases of old string characters
+
+		trim(): removes the white spaces (unused space) and returns new string object
+
+					"       Cybertek   School              "
+
+		substring(beginning index, ending index): creates substring of the string strating from beginning index till endinging index. ending index is excluded
+
+		substring(beginning index): creates substring from given beginning index till the end of the string
+
+					"Java Programming language";
+					"Java"
+
 
 
 
@@ -67,6 +82,15 @@ lunch Tasks:
 	2. write a program that asks user to enter two strings, and print out the longest string
 
 	3. Write a program that will reverse a string. Your program should reverse a string only 5 characters long. If word is shorter, display message: "Too short!". If word is longer, display message: "Too long!". Otherwise, reverse this word and print out result into the console.
+
+			"Table"
+			 01234
+
+
+			"elbaT"
+
+
+
 
 come back at 2:00pm EST
 
