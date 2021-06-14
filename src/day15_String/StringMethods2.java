@@ -31,6 +31,48 @@ public class StringMethods2 {
         System.out.println(name5);
 
 
+        System.out.println("---------------------------------------------");
+        String sentence3 = "Python is an easy language";
+        sentence3 = sentence3.replace("Python", "Java"); //"Java is an easy language"
+
+        System.out.println(sentence3);
+
+        String sentence4 = "C# is a programming language, I like learning C#, C# is the best";
+        sentence4 = sentence4.replace("C#" , "Java");
+
+        System.out.println(sentence4);
+
+        String sentence5 = "Dog is friendly, Dog is loyal, I love Dogs";
+        sentence5=sentence5.replace("Dog", "Cat");
+
+        System.out.println(sentence5);
+
+        System.out.println("---------------------------------------");
+
+        String str = "Batch 23";
+        // index:     01234567
+
+       // char ch1 = str.charAt(200); // index out of range
+       // char ch1 = str.charAt(-1); // index out of range
+      //  System.out.println("ch1 = " + ch1);
+
+        System.out.println( str.length() );
+
+        str = str.toUpperCase();
+
+        System.out.println(str);
+
+        str = str.toUpperCase();
+
+        System.out.println(str);
+
+        String str2 = "Cybertek is a great school";
+        //              0
+        String s4 = str2.substring(1400,1900);
+        System.out.println(s4);
+
+
+
 
     }
 
