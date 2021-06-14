@@ -45,13 +45,28 @@ String class: presented in "java.lang"
 		3. String is immutable
 				once the object is created it cannot be modified
 
-String methods:
-
 
 
 
 Come back at: 11:35am
 Canvas -> Java -> Modules -> Day 15 -> Siwtch statements short quiz due by 11:55am
+
+
+String methods:
+		charAt(index Number): returns the character at the given index
+
+		length(): returns total number of characters in the string.  retunrs it as int
+
+
+
+
+
+
+
+
+
+
+
 
 
 
