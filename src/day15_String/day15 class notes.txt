@@ -60,10 +60,15 @@ String methods:
 
 
 
+lunch Tasks:
+	1. write a program that asks user to enter a sentence.
+		then print the first & last characters of the sentence
 
+	2. write a program that asks user to enter two strings, and print out the longest string
 
+	3. Write a program that will reverse a string. Your program should reverse a string only 5 characters long. If word is shorter, display message: "Too short!". If word is longer, display message: "Too long!". Otherwise, reverse this word and print out result into the console.
 
-
+come back at 2:00pm EST
 
 
 
