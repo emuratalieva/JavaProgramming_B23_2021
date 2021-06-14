@@ -19,11 +19,6 @@ public class NameFormatting {
 
         System.out.println(fullName);
 
-
-
-
-
-
     }
 
 }
