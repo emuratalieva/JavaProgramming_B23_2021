@@ -6,7 +6,11 @@ public class HappyBirthday {
 
 
     public static void main(String[] args) {
-        happyBirthDay(2021, 6, 14);
+
+
+        happyBirthDay(1990, 6, 15);
+
+
     }
 
 
