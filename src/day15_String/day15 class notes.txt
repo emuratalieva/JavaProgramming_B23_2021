@@ -5,4 +5,57 @@ Topics: String Class Intro
 package name: day15_String
 
 
+import statement:
+		
+		import java.util.Scanner;  // scanner was presented in "java.util"
+
+		import java.lang.Double;	// not needed, becasue the class is in java.lang package
+		import java.lang.String; // not needed
+
+
+String class: presented in "java.lang" 
+			 any class in "java.lang" package will be imported automatically
+
+
+		 1. Object. there are two ways of creating object:
+		 					1. String literals:
+		 							 String name = "Daniel"; // all string literal will be in string pool
+
+
+ 							 2. by using new keyword:
+ 							 		String name = new String("Daniel");  // everytime when we use new keyword new object in heap will be created
+
+
+		 		Java Heap: memory location in java where all the objects will be saved at
+
+		 		String pool: special memory location. ONLY for String literl objects
+		 					does not create duplicated objects
+
+		2. String is sequences of characters
+					"Cat" == "CAT"
+
+					each character in String has reprsentive number called index number
+
+					index number: strating from zero
+
+					String name = "Cybertek 1";
+					//index:       0123456789
+
+
+		3. String is immutable
+				once the object is created it cannot be modified
+
+String methods:
+
+
+
+
+Come back at: 11:35am
+Canvas -> Java -> Modules -> Day 15 -> Siwtch statements short quiz due by 11:55am
+
+
+
+
+
+
 
