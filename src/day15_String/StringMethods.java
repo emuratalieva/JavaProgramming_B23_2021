@@ -44,6 +44,34 @@ public class StringMethods {
      //   String fullName2 = firstName.concat(" ").concat(lastName);
 
 
+        System.out.println("--------------------------------------");
+        String s = "cybertek";
+         s = s.toUpperCase(); // "CYBERTEK"
+
+        System.out.println(s);
+
+        System.out.println("--------------------------------------");
+        String s2 = "JAVA PROGRAMMING LANGUAGE";
+        s2 = s2.toLowerCase(); // "java programming language"
+
+        System.out.println(s2);
+
+        String name = "muhtar";
+                name = name.toUpperCase(); //"MUHTAR"
+
+        System.out.println(name);
+
+                name =name.toLowerCase();  // "muhtar"
+
+        System.out.println(name);
+
+
+        System.out.println("------------------------------------");
+        String schoolName = "                      Cybertek  School                    ";
+         schoolName = schoolName.trim(); // "Cybertek School"
+
+        System.out.println(schoolName);
+
 
 
 
