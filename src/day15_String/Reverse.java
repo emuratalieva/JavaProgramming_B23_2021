@@ -1,10 +1,12 @@
 package day15_String;
 
+import java.util.Scanner;
+
 public class Reverse {
 
     public static void main(String[] args) {
-
-        String word = "Uncle";  // elcnU
+        Scanner scan = new Scanner(System.in);
+        String word = scan.next();  // elcnU
         //index:       01234
         
         String result = ""; // knalB
@@ -28,7 +30,7 @@ public class Reverse {
         }
 
 
-        System.out.println("result = " + result);
+        System.out.println(result);
 
 
     }
