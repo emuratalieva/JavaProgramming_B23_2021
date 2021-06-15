@@ -28,3 +28,23 @@ warmup tasks:
 	            - if all different length :  print "All different length"
 
 
+String methods:
+	replace(old value, new Value): all old values will be replaced with the given new value
+
+	replaceFirst(old value, new value): first occured old value will be replaced with the given new value
+
+	indexOf("caharcter"): returns the index number of first occured character. returns it as int
+
+	lastIndexOf("Character"): returns the index number of last occured character. returns it as int
+		
+	isEmpty(): checks if the string is empty. returns boolean
+
+	equals(str): checks if two string has the same text. returns boolean
+				Cannot ignore case sensitivity
+				DO NOT use == to compare two strings. use .equals()
+
+	equalsIgnoreCase(str):  checks if two strings are equal without case sensitivity 
+
+
+
+
