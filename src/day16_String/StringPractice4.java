@@ -20,7 +20,7 @@ public class StringPractice4 {
             System.out.println("All words are same length");
         }else if(notSame){
             System.out.println("All different length");
-        }else{
+        }else{ // some has lengths some doesn't
             System.out.println("Not Same nor Different lengths");
         }
 
