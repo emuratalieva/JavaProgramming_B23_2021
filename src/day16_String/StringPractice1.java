@@ -31,6 +31,7 @@ public class StringPractice1 {
 
         scan.close();
 
+
     }
 
 }
