@@ -15,7 +15,7 @@ public class StringPractice4 {
         boolean allSame = word1.length() == word2.length() && word1.length() == word3.length();
         boolean notSame = word1.length() != word2.length() && word2.length() != word3.length() && word1.length() != word3.length();
         // if none of them have the same length
-        
+
         if(allSame){
             System.out.println("All words are same length");
         }else if(notSame){
