@@ -29,7 +29,7 @@ public class Task1 {
         // System.out.println(word.substring(0,2));
 
 
-        if (word.length()<1) {
+        if (word.isEmpty()) {
             System.out.println("it can not be empty");
         } else if (word.length() < 2) {
             System.out.println(word);
