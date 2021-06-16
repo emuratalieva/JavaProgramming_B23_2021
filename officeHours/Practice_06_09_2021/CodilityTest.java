@@ -37,21 +37,17 @@ Write a function:
         String result="";
 
         if(number%2==0) {
-            System.out.println("Codility");        }
+            result+="Codility";
+        }
 
         //===========================
-
-
-
 
 
         if(number%3==0) {
             result+="Test";
         }
 
-
         //===========================
-
 
         if(number%5==0)
         {
