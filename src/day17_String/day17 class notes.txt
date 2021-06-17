@@ -62,6 +62,9 @@ task:
 			starts with: www.
 			ends with: .com, .edu, .gov
 
+	3. ask the user to enter a word.
+        if the word ends with "ly", print "really???" ,  otherwise, print "never mind"
+
 
 
 
