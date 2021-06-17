@@ -18,7 +18,7 @@ Warmup tasks:
 
 	3. write a program that can check if the first and last characters of the string are same
 	            ex:
-	                level
+	                Level
 	            output:
 	                same
 
@@ -33,6 +33,47 @@ Warmup tasks:
 
 				output:
 					Logged in successfully
+
+ 
+String methods:
+	contains(str): checks if the given str is contained in the string. returns boolean  (has)
+
+				sentence = "My favorite programming languages are: C#, Java, JavaScript"   ;
+
+				sentence.contains("Python") //false
+
+
+	startsWith(str): checks if the string is started with given str. returns boolean
+			sentence = "Cybertek School is the best"
+
+			sentence.startsWith("Cybertek")
+
+
+	endsWith(str): checks if the string is ended with given str. returns boolean
+
+
+
+task:
+	1. write a program to verify if the gmail is valid
+			requirments:
+					a valid gmail account should end with @gmail.com
+
+	2. write a program that can check if the given website is valid website or not
+			starts with: www.
+			ends with: .com, .edu, .gov
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
