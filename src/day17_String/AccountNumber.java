@@ -12,19 +12,19 @@ public class AccountNumber {
 
         String result = "";
 
-        switch (firstChar){
+        switch (firstChar) {
             case '2':  // the first character of account is 2
-                    if(account.length() ==7){ //if length of account is  7
-                        result = "Valid Account";
-                    }else{ //if length of account is not 7
-                        result ="INVALID: it should be 7 characters long";
-                    }
-                    break;
+                if (account.length() == 7) { //if length of account is  7
+                    result = "Valid Account";
+                } else { //if length of account is not 7
+                    result = "INVALID: it should be 7 characters long";
+                }
+                break;
 
             case '5': // the first character of account is 5
-                if(account.length() == 10){ // if length of account is  10
+                if (account.length() == 10) { // if length of account is  10
                     result = "Valid Account";
-                }else{// if length of account is not 10
+                } else {// if length of account is not 10
                     result = "INVALID: it should be 10 characters long";
                 }
                 break;
@@ -52,7 +52,7 @@ public class AccountNumber {
 
          */
 
-
+        scan.close();
 
     }
 
