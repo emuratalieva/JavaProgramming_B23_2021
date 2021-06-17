@@ -42,6 +42,7 @@ public class StringPractice {
         }
 
 
+        scan.close();
         
         
         
