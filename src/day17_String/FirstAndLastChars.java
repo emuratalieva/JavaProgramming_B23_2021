@@ -19,6 +19,7 @@ public class FirstAndLastChars {
             System.out.println("Not Same");
         }
 
+        scan.close();
 
         /*
         String first = word.substring(0, 1).toLowerCase(); //l
