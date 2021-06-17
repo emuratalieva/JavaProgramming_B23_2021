@@ -22,12 +22,11 @@ public class ScannerMethods {
 
 
         /*
-        FreeShipping:
-            price
-            isPrime:
-                true: free shipping
-                false: 3.99 shipping fee
-
+           FreeShipping:
+                    price
+                    isPrime:
+                        true: free shipping
+                        false: 3.99 shipping fee
          */
 
 
