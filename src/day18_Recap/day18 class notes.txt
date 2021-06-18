@@ -66,8 +66,6 @@ String methods: charAt, length, toLowerCase, toUpperCase, trim, indexOf, lastInd
 				replaceFirst(old, new):returns new string. replaces FIRST old value ONLY with given new value
 
 
-				str.stratsWith("ABC")
-
 
 Task: 
 	1. EmailTask1:
@@ -99,7 +97,11 @@ Task:
 
 
 
-
+next topic: Loops
+					for loop
+					while loop
+					do-while loop
+					nested loop
 
 
 
