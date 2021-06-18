@@ -1,0 +1,42 @@
+06/18/2021
+Java Recap: String
+
+package name: day18_Recap
+
+1. Ask user to enter a word. If the work contains starts with x, print the word without x.
+                    Input:
+                        xcode
+
+                    Output:
+                        code
+
+2. Ask user to enter two words. Then add them together and print. But if the last letter if the first word and the first letter of the last letter is the same, print that character once.
+                    Input:
+                        one
+                        eight
+
+                    Output:
+                        oneight
+
+3. Ask user to enter a word, 
+		if the word starts with digits, print "first character is digit"
+		if the word starts with uppercase letters, print "first character is lowercase letter"
+		if the word starts with lowercase letters, print "first character is uppercase letter"
+		if the word starts with special characters, print "first character is special character"
+
+
+
+
+String methods: charAt, length, toLowerCase, toUpperCase, trim, indexOf, lastIndexOf, substring, replace, replaceFirst
+				isEmpty, equals, equalsIgnoreCase, contains, startsWith, endsWith
+
+
+
+come back at: 2pm
+
+
+
+
+
+
+
