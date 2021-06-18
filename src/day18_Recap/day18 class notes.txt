@@ -32,7 +32,36 @@ String methods: charAt, length, toLowerCase, toUpperCase, trim, indexOf, lastInd
 
 
 
-come back at: 2pm
+Task: 
+	1. EmailTask1:
+			Assume that email address is constructed by person's first name and followed by an underscore and last name.
+			Write a program that can swap first name with last name in the email (Seperated by an underscore). If the email doesn't contain an underscore print the given input email.	
+
+			Ex:
+				input: mike_tyson@gmail.com
+				output: tyson_mike@gmail.com
+
+
+
+	2. EmailTask2:
+		Assume that email address is constructed by person's first name and followed by an underscore and last name.
+		Write a program that will print out information about user based on email. Print first name, last name, and domain.
+	   First and Last name should be printed with proper format - uppercase first letter and remaining lowercase.
+
+   			Ex:
+   				input: 
+   					craig_federighi@apple.com
+
+				Output: 
+					First name: Craig
+					Last name: Federighi
+					Domain: apple
+
+
+
+
+
+
 
 
 
