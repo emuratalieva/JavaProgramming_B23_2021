@@ -41,6 +41,36 @@ public class StringMethodsPractice {
 
         System.out.println("name = " + name);
 
+        String sentence3 = "I live in California, I go to Cybertek school   ";
+        String name2 = sentence3.substring( sentence3.indexOf("Cy"), sentence3.lastIndexOf(" school") ) ;
+
+        System.out.println("name2 = " + name2);
+
+        System.out.println("---------------------------------------------");
+
+        String str2 = "Dog Cat Dog Cat";
+        System.out.println(str2);
+        str2 = str2.replace("Cat", "Dog"); //"Dog Dog Dog Dog"
+        System.out.println(str2);
+
+        str2 = str2.replaceFirst("Dog", "Cat");
+        System.out.println( str2);
+
+        String sentence4 = "Java Java Java";
+     //  sentence4 = sentence4.replaceFirst("Java", "C#").replaceFirst("Java", "Python") ; // "C# Python Java"
+
+    //    sentence4 =  sentence4.replace("Java Java ", "C# Python ");
+
+        System.out.println(sentence4);
+
+        System.out.println("-----------------------------------------------");
+
+        System.out.println(  "Yes".equals("yes")  ); // false
+
+        System.out.println( "Yes".equalsIgnoreCase("yes") ); // true
+
+        System.out.println( "YES".equalsIgnoreCase("no") ); // false
+
 
 
 
