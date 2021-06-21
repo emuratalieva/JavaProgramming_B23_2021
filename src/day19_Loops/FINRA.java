@@ -3,20 +3,25 @@ package day19_Loops;
 public class FINRA {
 
     public static void main(String[] args) {
+        String result = ""; //1 2 FIN ....
 
         for (int i = 1; i <= 100 ; i++) {
 
+           // result += (i % 15 == 0 )? "FINRA " :(i % 3 == 0) ? "FIN " :(i%5 ==0)?"RA ": i+" ";
+
             if (i % 15 == 0 ){
-                System.out.print("FINRA ");
+               result += "FINRA ";
             }else if(i % 3 == 0){
-                System.out.print("FIN ");
+                result += "FIN ";
             }else if(i%5 ==0){
-                System.out.print("RA ");
+                result += "RA ";
             }else{
-                System.out.print(i+" ");
+               result += i+" ";
             }
 
         }
+
+        System.out.println(result);
 
 
     }
