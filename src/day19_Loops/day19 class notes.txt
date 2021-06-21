@@ -58,6 +58,7 @@ Task:
                 * * * * * *
 
 3. print the following shape:
+
                         * * * * * *
                         *         *
                         *         *
@@ -84,6 +85,22 @@ Task:
 	            
 	            input : 200
 	            output : 20100
+
+
+lunch tasks:
+	6. ask user to enter a number 10 times . find the sum of 10 numbers
+
+	7. ask user to enter a number for 5 times,  then return the maximum number
+
+	8. ask user to enter a number for 5 times,  then return the minimum number
+
+
+
+come back at 2:10pm
+
+Canvas -> Java -> Module -> day19 -> String short quiz due by 2:30 pm
+
+
 
 
 
