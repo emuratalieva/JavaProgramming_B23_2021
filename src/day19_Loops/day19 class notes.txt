@@ -31,4 +31,4 @@ for loop: gets executed if the condition is true, and stops if the condition is 
 		Iterator: Co-related to the condition. responsioble for making the condition false
 						i++: 0, 1, 2, 3, 4, 5
 
-						
+ come back at 11:17 am						
