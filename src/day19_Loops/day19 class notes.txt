@@ -100,6 +100,8 @@ lunch tasks:
 
 	11. remove duplicates
 
+	12. find the unique charcters
+
 
 
 come back at 2:10pm
@@ -115,7 +117,7 @@ take home assignment:
 
 
 
-
+come back at 4:30 pm
 
 
 
