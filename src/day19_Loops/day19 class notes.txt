@@ -94,6 +94,12 @@ lunch tasks:
 
 	8. ask user to enter a number for 5 times,  then return the minimum number
 
+	9. String reverse
+
+	10. Palindrome
+
+	11. remove duplicates
+
 
 
 come back at 2:10pm
@@ -101,7 +107,10 @@ come back at 2:10pm
 Canvas -> Java -> Module -> day19 -> String short quiz due by 2:30 pm
 
 
+take home assignment:
+	1. ask the user to enter 5 strings, return the string las the maximum length
 
+	2. ask the user to enter 5 strings, return the string las the minimum length
 
 
 
