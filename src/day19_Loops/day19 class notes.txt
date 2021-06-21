@@ -31,4 +31,66 @@ for loop: gets executed if the condition is true, and stops if the condition is 
 		Iterator: Co-related to the condition. responsioble for making the condition false
 						i++: 0, 1, 2, 3, 4, 5
 
- come back at 11:17 am						
+ come back at 11:17 am	EST
+ 
+
+
+
+
+
+Task:
+1. Write a method which prints out the numbers from 1 to 100 butfor numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number,  for numbers which are a multiple of 3, print "FIN" instead of the number and for numbers which are a multiple of 5, print "RA" instead of the number. 
+        
+        ex: 
+            output:
+                1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN ....
+
+
+
+2.  print the following shape:
+                * * * * * * 
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+
+3. print the following shape:
+                        * * * * * *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        * * * * * *
+
+    Hint: in the loop body , only place the statements that you need to repeat
+
+
+4. write a program that can calculate the sum of all numbers between 1 to 100
+
+5. write a program that can calculate the sum of all numbers between 1 to any given number
+	        ex:
+	            input: 100
+	            output: 5050
+
+	            input: 50
+	            output: 1275
+	            
+	            input : 200
+	            output : 20100
+
+
+
+
+
+
+
+
+
+ 					
