@@ -13,3 +13,22 @@ warmup tasks:
 
 			 output:
 			 	abc
+
+Loop: repeated statements
+
+for loop: gets executed if the condition is true, and stops if the condition is false
+		
+		for(initialization; Condition; Iterator){
+				statements;
+		}
+
+		initialization: starting point
+					int i = 0;
+
+		Condition: ending point of the loop. created based on the initialization
+						i < 5
+
+		Iterator: Co-related to the condition. responsioble for making the condition false
+						i++: 0, 1, 2, 3, 4, 5
+
+						
