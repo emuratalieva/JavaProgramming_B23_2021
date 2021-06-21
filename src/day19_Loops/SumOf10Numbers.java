@@ -10,7 +10,7 @@ public class SumOf10Numbers {
         Scanner scan = new Scanner(System.in);
         int result = 0;
 
-        for (int i = 1; i <= 10 ; i++) {
+        for (int i = 1; i <= 10 ; i++ ) {
 
             System.out.println("Enter a number:");
             result += scan.nextInt();
