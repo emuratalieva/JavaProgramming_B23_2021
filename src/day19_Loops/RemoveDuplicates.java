@@ -1,12 +1,14 @@
 package day19_Loops;
 
+import java.util.Scanner;
+
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        String word = "aabbc";
+        String word = new Scanner(System.in).next();
 
-        String result = ""; //"abc"
+        String result = ""; //"ab"
 
         if(word.length() == 5 ) {
             if (!result.contains("" + word.charAt(0))) { //'a'
@@ -30,6 +32,9 @@ public class RemoveDuplicates {
         }else{ //word.length() < 5
             result = "Too Short";
         }
+
+
+        System.out.println("result = " + result);
 
 
 
