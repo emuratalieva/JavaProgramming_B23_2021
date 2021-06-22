@@ -15,7 +15,13 @@ public class FactorialNumber {
         }
 
         System.out.println("result = " + result);
-
+/*
+6 * 5 * 4 * 3 * 2 * 1
+30 * 4 * 3 * 2 * 1
+120 * 3 * 2 * 1
+360 *2 * 1
+720
+ */
 
     }
 
