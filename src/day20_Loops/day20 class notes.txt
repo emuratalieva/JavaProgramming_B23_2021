@@ -13,6 +13,7 @@ warmup tasks:
                 output: 120  ( because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
 
 
+
     2. write a program that can return the frequncy of the a word Java from the sentence 
 
         Ex:
@@ -28,6 +29,23 @@ warmup tasks:
 
     		output:
     			true
+
+	4. Write a program that calculates the sum of numbers entered by the user until user enters a negative number.
+
+            hint: you need an infinite loop
+            
+
+Branching Statements:
+		break statement: exits the loop & switch 
+		continue: skips the current iteration
+
+
+
+
+
+
+
+
 
 
 
