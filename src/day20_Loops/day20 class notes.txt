@@ -2,9 +2,6 @@
 Topics: branching statements
 		While loop
 		do-while loop
-		
-
-
 
 package name: day20_Loops
 
