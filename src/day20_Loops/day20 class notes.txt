@@ -1,7 +1,5 @@
 06/22/2021
 Topics: branching statements
-		While loop
-		do-while loop
 
 package name: day20_Loops
 
@@ -11,7 +9,6 @@ warmup tasks:
             Ex:
                 input: 5
                 output: 120  ( because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
-
 
 
     2. write a program that can return the frequncy of the a word Java from the sentence 
@@ -33,16 +30,11 @@ warmup tasks:
 	4. Write a program that calculates the sum of numbers entered by the user until user enters a negative number.
 
             hint: you need an infinite loop
-            
+
 
 Branching Statements:
 		break statement: exits the loop & switch 
-		continue: skips the current iteration
-
-
-
-
-
+		continue statement: skips the current iteration
 
 
 
