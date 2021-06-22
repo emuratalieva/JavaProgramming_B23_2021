@@ -57,7 +57,7 @@ public class BranchingStatements {
 
         for (char i ='A'; i <= 'Z'; i++){
             if(i == 'D' || i == 'T' || i == 'X'){
-                continue;
+                continue; // skip
             }
 
             System.out.print(i+" ");
