@@ -8,7 +8,7 @@ public class StringReverse {
         String name = new Scanner(System.in).nextLine();
         //index:       01234567
 
-        String reverseName = "";  //rathuM
+        String reverseName = "Muhtar";  //rathuM
 
         for (int i = name.length()-1; i >= 0; i--) {
              reverseName += name.charAt(i); // getting the characters starting from last index to index 0
