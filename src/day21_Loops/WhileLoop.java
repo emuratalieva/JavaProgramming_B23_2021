@@ -13,7 +13,7 @@ public class WhileLoop {
 
         while(true){
             System.out.println("Hello batch 23");
-            
+
         }
 
 
