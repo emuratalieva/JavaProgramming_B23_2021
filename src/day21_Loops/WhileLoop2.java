@@ -9,6 +9,7 @@ public class WhileLoop2 {
         }
 
         System.out.println("---------------------------");
+
         int j = 0;
         while( j < 3){
             System.out.println("Hello Cybertek");
