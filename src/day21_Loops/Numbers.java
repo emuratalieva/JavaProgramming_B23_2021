@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Numbers {
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number");
-        int n = new Scanner(System.in).nextInt(); // 100
+        int n = scan.nextInt(); // 100
 
         if(n <= 0){
             System.err.println("Invalid Number");
@@ -17,7 +18,7 @@ public class Numbers {
         String result2 = "Divisible by 5: ";
         String result3 = "Divisible by 3: ";
 
-        for (int i = -1000; i <= n ; i++) { // i: 1,2,3,4,5.... 100
+        for (int i = 1; i <= n ; i++) { // i: 1,2,3,4,5.... 100
 
             if (i%15 ==0){
                 result1 += i+" ";
@@ -35,6 +36,7 @@ public class Numbers {
 
 
 
+        scan.close();
 
 
 
