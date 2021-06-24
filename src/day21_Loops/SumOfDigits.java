@@ -10,7 +10,7 @@ public class SumOfDigits {
         //        49  50   51  = 150
         //       (49-48)  (50-48)  (51 - 48)
 
-        
+
         for(int i = 0; i <= str.length()-1; i++ ){// i: each index numbers of str
             char each = str.charAt(i);
             if (each >= '0' && each <= '9'){
