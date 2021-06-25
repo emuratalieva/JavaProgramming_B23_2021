@@ -14,6 +14,9 @@ warmup tasks:
 	    		If credentials are matched, your program should print "Logged in." 
 	    		If the credentials are not matched, the program should allow the user to have three attempts to enter correct credentials and if all three attempts are failed, then print "Your account is lucked."
 
+
+
+
 while loop: repeated if statement
 
 	while(Condition){
@@ -27,6 +30,20 @@ do-while: Just Do It
 	do{
 		statement;
 	}while(condition);
+
+
+
+3. Write a program for the  marriage proposal program asking the user, "Will you marry me?"
+    if the answer is yes, print "Congrats."
+    if the answer is neither yes nor no, print "Invalid answer, please re-enter" and repeat it until the user enters either yes or no
+
+
+
+
+
+
+
+
 
 
 

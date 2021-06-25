@@ -9,7 +9,7 @@ public class YesOrNo {
         System.out.println("Will you marry me?");
         String answer = scan.next().toLowerCase();
 
-        while(  !(answer.equals("yes") || answer.equals("no")) ){ //to make sure user enters either yes or no
+        while(  ! ( answer.equals("yes") || answer.equals("no") )   ){ //to make sure user enters either yes or no
             System.out.println("Invalid Entry, please re-enter");
             answer = scan.next().toLowerCase();
         }
