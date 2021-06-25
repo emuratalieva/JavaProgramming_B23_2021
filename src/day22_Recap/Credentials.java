@@ -44,6 +44,7 @@ public class Credentials {
 
         System.out.println("Hello Cybertek"); // should ONLY be displayed if the user logged in
 
+        scan.close();
 
     }
 
