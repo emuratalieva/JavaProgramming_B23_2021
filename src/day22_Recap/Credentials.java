@@ -15,6 +15,7 @@ public class Credentials {
         String p = scan.next(); // p: to store user entered password
 
         if(u.equals(correctUsername) && p.equals(correctPassword)){
+
             System.out.println("Logged In");
 
         }else{ // if user provides incorrect username or password
@@ -23,7 +24,6 @@ public class Credentials {
                 System.out.println("username or password is incorrect, please re-enter");
                 System.out.println("Enter your username:");
                 u = scan.next();
-
                 System.out.println("Enter your password:");
                 p = scan.next();
 
@@ -36,7 +36,7 @@ public class Credentials {
                     System.out.println("Your account is locked");
                     System.exit(0); // terminates the system
                 }
-                
+
             }
 
         }
