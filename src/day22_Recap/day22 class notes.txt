@@ -2,6 +2,8 @@
 Topics: do-while loop
 		nested loop Intro
 
+		for loop vs while loop vs do-while
+
 Package name: day22_Recap
 
 warmup tasks:
@@ -12,3 +14,17 @@ warmup tasks:
 	    Ask the user to enter their credentials. 
 	    		If credentials are matched, your program should print "Logged in." 
 	    		If the credentials are not matched, the program should allow the user to have three attempts to enter correct credentials and if all three attempts are failed, then print "Your account is lucked."
+
+while loop: repeated if statement
+
+	while(Condition){
+		statement;
+	}
+
+
+
+do-while: Just Do It
+	
+	do{
+		statement;
+	}while(condition);
