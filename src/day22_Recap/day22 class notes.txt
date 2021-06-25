@@ -1,6 +1,5 @@
 06/25/2021
 Topics: do-while loop
-		nested loop Intro
 
 		for loop vs while loop vs do-while
 
@@ -28,3 +27,6 @@ do-while: Just Do It
 	do{
 		statement;
 	}while(condition);
+
+
+
