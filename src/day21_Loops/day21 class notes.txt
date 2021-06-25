@@ -4,7 +4,11 @@ Topics: while & do-While loops
 package name: day21_Loops
 
 warmup tasks:
-	1. write a program that can multiply two numbers without using * operator
+	1. write a program that can multiply two positive numbers without using * operator
+
+			5 & 3 = 5 + 5+ 5 = 15
+
+			15
 
 	2.  Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.
             if the number can be divisible by 3, 5 and 15,
@@ -27,9 +31,8 @@ warmup tasks:
      		Ex:
      			input: A1B2C3
 
-     			output:
+     			output: 6
      					1+2+3
-
 
 	4. write a program that can retive the digits, letters and special characters from a string
 			Ex:
@@ -40,5 +43,41 @@ warmup tasks:
 					letters: mnAb
 					digits: 123
 					special chars: @#!
+
+
+
+
+branching statetemnt:
+	 Syste.exit(0): terminates the system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
 
 
