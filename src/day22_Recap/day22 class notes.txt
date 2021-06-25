@@ -38,6 +38,11 @@ do-while: Just Do It
     if the answer is neither yes nor no, print "Invalid answer, please re-enter" and repeat it until the user enters either yes or no
 
 
+4. write a program to ask user to enter two number and math opeator, and return the result.
+			
+			if the operator is invalid operator, ask user to re-enter the operator until user provides a valid operator
+
+			
 
 
 
