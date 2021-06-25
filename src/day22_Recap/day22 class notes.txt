@@ -42,10 +42,6 @@ do-while: Just Do It
 			
 			if the operator is invalid operator, ask user to re-enter the operator until user provides a valid operator
 
-			
-
-
-
 
 
 
