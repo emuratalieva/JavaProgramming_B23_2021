@@ -15,18 +15,14 @@ public class SumOfTwoNumbers {
 
             System.out.println("Addition: " + (n1 + n2));
 
-            while( ! (answer.equals("yes") || answer.equals("no"))) { // while the answer is invalid
-                System.out.println("Do you want to continue?");
-                answer = scan.next().toLowerCase();
-            }
+           System.out.println("Do you want to continue?");
+           answer = scan.next().toLowerCase();
 
-            /*
-            while (  ! (answer.equals("yes") || answer.equals("no"))  ){ //while the anser is not yes or no, repeatedly ask the usere to reenter
-                System.out.println("Invalid Answer, Please re-enter!");
-                System.out.println("Do you want to continue?");
-                answer = scan.next().toLowerCase();
-            }
-             */
+           while(  !(answer.equals("yes") || answer.equals("no"))  ){ // to make sure that user will only enter yes or no
+               System.out.println("Invalid Entry, please enter! Do you want to continue?");
+               answer = scan.next().toLowerCase();
+           }
+
 
         } while (answer.equalsIgnoreCase("yes"));
 
