@@ -1,0 +1,16 @@
+06/28/2021
+Topics: Nested Loop
+		Arrays Intro
+
+Package Name: day23_Arrays
+
+warmup tasks:
+	1. Write a program that can find the frequency of any given character from a string 
+			Ex:
+				str = "aabcccd";
+
+				input: 'c'
+				output: 3
+
+				input: 'e'
+				output: 0
