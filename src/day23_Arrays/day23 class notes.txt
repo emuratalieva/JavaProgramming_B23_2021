@@ -1,6 +1,7 @@
 06/28/2021
 Topics: Nested Loop
 		Arrays Intro
+		Arrays Utility: toString, sort, equals
 
 Package Name: day23_Arrays
 
@@ -95,6 +96,16 @@ declaring an array variuable
 
 
 
+Arrays Utility: Arrays class is a utility of the array
+				Arrays class is presented "java.util"
+
+				import java.util.Arrays;
+
+
+
+
+
+
 
 task:
 	1. create an array of string that conatins the names of months
@@ -114,6 +125,33 @@ task:
 	            array = {10,5, 4, 400, 50, 0, -1};
 
 	            output: -1
+
+
+    4. AverageNumber
+    		1. Ask the user how many numbers he/she wanst to enter
+    		2. get all the inputs from the user
+    		3. return the average number
+
+    		[1,2,3,4,5]
+
+    		average: (1+2+3+4+5) / 5
+
+
+default values:
+	byte, short, int, long ===> 0
+	float, double ==> 0.0
+
+
+
+tomorrow: Array Continue
+		  for each loop
+
+Thursday: Multi-dimentional arrays
+
+
+
+
+
 
 
 
