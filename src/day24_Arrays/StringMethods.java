@@ -27,6 +27,13 @@ public class StringMethods {
 
        System.out.println("firstName = " + firstname);
 
+       // toCharArray()
+
+        String str = "ABCDE!@#$!";
+        char[] characters = str.toCharArray();
+
+        System.out.println( Arrays.toString(characters));
+
 
 
 
