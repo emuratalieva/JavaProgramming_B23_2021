@@ -14,6 +14,8 @@ public class ArraysIntro {
         System.out.println( group1[2] ); // Tamara
         System.out.println( group1[3] );
 
+        group1[1]="Mehmet";
+
         System.out.println("---------------------------------------------");
 
         for(int i=0; i <= 3; i++){
