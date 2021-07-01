@@ -26,6 +26,13 @@ public class MergeTwoArrays {
 
         System.out.println(Arrays.toString(arr3)  );
 
+        /*
+        int[] a1 = {1,2,3,4};
+        String[] s1 = {"A", "B"};
+
+        Object[] r = {"A", 1, 'C', true};
+         */
+
 
 
 
