@@ -1,0 +1,28 @@
+07/01/2021
+Topics: For Each Loop
+		Multi-dimensional array Intro
+
+package name: day25_ForEachLoop
+
+Warmup task:
+	1. write a program that can  reverse each elements in an array of string
+		Ex:
+		    array = {"Java", "Python", "C#"}
+
+	    	output:
+	    		["avaJ", "nohtyP", "#C"]
+	    		
+
+	2. write a program that can merge two arrays of integers
+		Ex:
+			arr1 = {1,2,3,4}
+			arr2 = {5,6}
+
+		output
+			arr3 = {1,2,3,4,5,6}
+
+
+3 data structures:
+	Arrays
+	Collections
+	Maps
