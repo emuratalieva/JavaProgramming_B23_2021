@@ -1,7 +1,6 @@
 07/01/2021
 Topics: For Each Loop
-		Multi-dimensional array Intro
-
+		
 package name: day25_ForEachLoop
 
 Warmup task:
@@ -11,7 +10,7 @@ Warmup task:
 
 	    	output:
 	    		["avaJ", "nohtyP", "#C"]
-	    		
+
 
 	2. write a program that can merge two arrays of integers
 		Ex:
@@ -26,3 +25,36 @@ Warmup task:
 	Arrays
 	Collections
 	Maps
+
+
+
+For each loop: a loop that's already iterated. 
+				iteration stated from index 0 till the last index (fixed)
+
+
+				pre condition: there MUST be a data structure
+
+				sytax:
+
+					for(DataType Variable   : Collection of Data){
+
+					}
+
+					DataType MUST match with Collection of Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
