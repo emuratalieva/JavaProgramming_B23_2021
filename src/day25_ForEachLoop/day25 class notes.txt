@@ -44,16 +44,25 @@ For each loop: a loop that's already iterated.
 
 
 
+Tasks:
+	1. create an array named classmates, and store 10 of your classmates' names
+			use for each loop to print first three letters of each name
+
+	2. write a program that can print the unique elements from an array of string
+			Ex:
+				{"java", "java", "python", "c#"}
+
+			output:
+				python c#
+
+
+				MUST use for each loop
 
 
 
+single dimensional array: array that contains data
 
-
-
-
-
-
-
+multiple dimensional array: array that contains array
 
 
 
