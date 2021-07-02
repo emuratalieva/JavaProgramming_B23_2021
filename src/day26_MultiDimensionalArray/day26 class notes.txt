@@ -25,7 +25,7 @@ single dimensional arrays: contains elements
 multi-dimensinal arrays: contains arrays
 
 			n dimensioanl array MUST contains (n-1) dimentional arrays
-			2							   1	
+			4							        3	
 
 			2 dimeonal array: conatins 1 dimensional array
 				{1,2,3}
@@ -42,7 +42,34 @@ multi-dimensinal arrays: contains arrays
 				 arr2D[2][3] ===> 9
 
 
+			 3 dimensional array: contains two dimensional arrays
+
+			 		//index of elements: 0 1 2   0 1       0 1 2   0 1
+			 		//	 				   0      1          0       1    
+			 		int[][][] arr3D = { {{1,2,3},{4,5}} , {{6,7,8},{9,10}}  };
+			 		//							0              1 
+
+			 		[index of 2D arrays][index of 1D array][index of elemnts]
+
+
+	 		4 dimensional array: contains 3 dimensional arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
  Arrays.deepToString: used for printing single dimensional array
+
+
+
 
 
 
@@ -54,7 +81,7 @@ Task:
                 9 10 11 12 13
                 4 5 6 7 8
                 1 2 3
-                
+
 
             task2: 
                 3 2 1
