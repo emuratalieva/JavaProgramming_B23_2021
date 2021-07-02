@@ -1,5 +1,7 @@
 package day26_MultiDimensionalArray;
 
+import java.util.Arrays;
+
 public class MultiDimensionalArrayPractice2 {
 
     public static void main(String[] args) {
@@ -33,7 +35,7 @@ public class MultiDimensionalArrayPractice2 {
         System.out.println("count = " + count);
 
 
-        System.out.println("------------------------------------------");
+        System.out.println("-------------------------------------------------");
         String[][][][][] names = { {  {{{"Viktoria", "Feruza"},{"Koray", "Break"} }, {{"Komiljon", "Yasin"}}}   , { {{"Alexandra", "Merve"}, {"Zaur", "Vulkasin"} }}} };
 
 
@@ -52,6 +54,9 @@ public class MultiDimensionalArrayPractice2 {
             }
 
         }
+
+
+        System.out.println(Arrays.deepToString(names));
 
 
 

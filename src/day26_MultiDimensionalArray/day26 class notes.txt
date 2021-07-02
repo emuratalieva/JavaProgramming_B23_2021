@@ -20,7 +20,7 @@ single dimensional arrays: contains elements
 
 	[index of Elements]
 
-	Arrays.toString : used for printing single dimensional array
+	Arrays.toString : used for printing single dimensional array ONLY
 
 multi-dimensinal arrays: contains arrays
 
@@ -61,7 +61,7 @@ multi-dimensinal arrays: contains arrays
 
 
 
- Arrays.deepToString: used for printing single dimensional array
+ Arrays.deepToString: used for printing single dimensional array ONLY
 
 
 
@@ -103,7 +103,7 @@ Write a program that can print out the common elements from two integer array
                 8 7 6 5 4
                 3 2 1
 
-                
+
 
 
  write a program that can find the maximum & minimum number from any two dimensional array
