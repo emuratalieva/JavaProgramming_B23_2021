@@ -20,8 +20,9 @@ public class CommonElements {
         for (int i = 0; i < arr2.length; i++) { //i: indexes of arr2
 
             for (int j = 0; j < arr1.length; j++) {//j:  indexes of arr1
-                if(arr2[i]  == arr1[j]){
-                    System.out.println(arr2[i] );
+                if(arr2[i]  == arr1[j]) {
+                    System.out.println(arr2[i]);
+
                 }
 
             }
