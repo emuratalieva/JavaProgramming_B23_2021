@@ -1,0 +1,16 @@
+07/02/2021
+Topics: Multi-Dimensional array
+		Java Recap (Loops & Arrays)
+
+Package Name: day26_MultiDimensionalArray
+
+Warmup tasks:
+	write a program that can mobve all the zeros to the end of the array
+		Ex:
+			array = {10, 0, 5, 0, 1, 0};
+
+			output:
+				{10, 5, 1, 0, 0, 0}
+
+
+
