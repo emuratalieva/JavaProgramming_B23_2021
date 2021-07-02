@@ -112,3 +112,13 @@ Write a program that can print out the common elements from two integer array
                 min: 10
 
 
+
+Thursday:
+	custom methods
+	
+
+
+
+
+
+
