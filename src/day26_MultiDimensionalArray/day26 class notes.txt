@@ -1,5 +1,5 @@
 07/02/2021
-Topics: Multi-Dimensional array
+Topics: Multi-Dimensional array: 2D, 3D, 4D... nD
 		Java Recap (Loops & Arrays)
 
 Package Name: day26_MultiDimensionalArray
@@ -11,6 +11,61 @@ Warmup tasks:
 
 			output:
 				{10, 5, 1, 0, 0, 0}
+
+
+
+single dimensional arrays: contains elements
+	int[] arr = {1,2,3,4,5};
+	//index:     0,1,2,3,4
+
+	[index of Elements]
+
+	Arrays.toString : used for printing single dimensional array
+
+multi-dimensinal arrays: contains arrays
+
+			n dimensioanl array MUST contains (n-1) dimentional arrays
+			2							   1	
+
+			2 dimeonal array: conatins 1 dimensional array
+				{1,2,3}
+				{4,5}
+				{6,7,8,9}
+
+				//				   0 1 2     0 1      0 1 2 3
+				int[][] arr2D = { {1,2,3} , {4,5} ,  {6,7,8,9}  };
+				//				     0,       1,         2
+
+				[index num of 1D array][index num of elements]
+
+				 arr2D[2] ===> {6,7,8,9} 
+				 arr2D[2][3] ===> 9
+
+
+ Arrays.deepToString: used for printing single dimensional array
+
+
+
+Task:
+	Given: 
+		int arr2D[][] = { {1,2,3} ,  {4,5,6,7,8} ,  {9,10,11,12,13} };
+
+            task1:
+                9 10 11 12 13
+                4 5 6 7 8
+                1 2 3
+                
+
+            task2: 
+                3 2 1
+                8 7 6 5 4
+                13 12 11 10 9
+                
+            task3:
+                13 12 11 10 9
+                8 7 6 5 4
+                3 2 1
+
 
 
 
