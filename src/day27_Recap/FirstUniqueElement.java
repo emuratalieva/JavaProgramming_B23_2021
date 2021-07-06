@@ -36,9 +36,9 @@ public class FirstUniqueElement {
                 }
             }
 
-            if(frequency == 1){ // if element is unique
+            if(frequency == 1){ // if element is unique: 2, 4
                 firstUniqueElement = each;
-                break;  // to make sure only the first unique element is returned from the loop
+               break;  // to make sure only the first unique element is returned from the loop
             }
 
         }
