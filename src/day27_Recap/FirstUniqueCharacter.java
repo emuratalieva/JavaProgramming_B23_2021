@@ -18,8 +18,9 @@ public class FirstUniqueCharacter {
         for (char each : str.replace(" ", "").toCharArray() ){ // each: represents each characters of str, excluding the space
 
             if(str.indexOf(each)  == str.lastIndexOf(each)){ // if the charcter' first and last index number in string are same, then the character is unique
+
                 System.out.println(each);
-                break;
+               break;
             }
 
         }
