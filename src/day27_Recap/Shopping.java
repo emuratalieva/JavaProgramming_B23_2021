@@ -10,7 +10,7 @@ public class Shopping {
         //1. find out the first index of "Gloves" (for loop)
         for (int i = 0; i < items.length; i++){
             if(items[i].equals("Gloves") ){
-                System.out.println(i);
+                System.out.println(i +"   price of the gloves is: "+prices[i]);
                 break;
             }
         }
