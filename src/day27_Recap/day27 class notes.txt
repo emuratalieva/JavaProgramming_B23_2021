@@ -2,7 +2,7 @@
 Review Topcis: Singel dimensional Array
 			   for each loop
 			   muli-dimensional array (two dimensional)
-			   Arrays Utility
+			   Arrays Utility & String methods
 
 Package name: day27_Recap
 
@@ -12,10 +12,27 @@ Array: one of the three data structures
 
 		ordered data structure (index)
 
+	single dimensional array: store multiple data
+
+	multi-dimensional array: store multiple arrays
+
 
 
 for each: already iterated.
 		  iteration order is not changable (0 to last index)
+
+
+
+Arrays Utilty class:
+		Arrays.toString(): for printing 1 D array
+		Arrays.deepToString(): for printing muli D array
+		Arrays.sort(): sorts the array in ascending
+		Arrays.equals(): compares two arrays objects
+
+		Arrays.copyOf()
+		ARrays.copyOfRange()
+
+
 
 
 On Thursday: Custom methods
@@ -35,9 +52,9 @@ Given:
         int[] itemIDs =   {12345 ,     12346,  12347,    12348,     12349,    12350};
 
 
-        1. find out the first index of "Gloves"
+        1. find out the first index of "Gloves" (for loop)
 
-        2. find out if "iPad" is contained in the item list
+        2. find out if "iPad" is contained in the item list (for loop or for each)
 
-        3. Print a report of each shopping item
-        	name - price -#ID
+        3. Print a report of each shopping item (for loop)
+        	name - price - #ID
