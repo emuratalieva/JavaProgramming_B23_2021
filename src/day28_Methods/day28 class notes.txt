@@ -15,7 +15,7 @@ steo5: print hello 5 times (loop)
 
 
 
-Method: function. grouping a series of code fragments
+Method: function. grouping a series of code fragments to create a function
 
 	advantage: re-usable
 				easy to maintain
@@ -38,11 +38,29 @@ Method: function. grouping a series of code fragments
 		specifiers: static, final, abstract, synchronized
 				for now only use static
 
+				static: can be called through the class name
+
+					Arrays.toString()
+					Arrays.sort()
+
+
 		returnType: void, any DataType
+					void: method does not return any data
 
 		methodName: any name
 
+		parameter: any dataType
 
+			method with parameter: we need it if method requires extra infomations to complete its functionality
+
+task:
+	1. create a method that can print odd numbers between 1~100 in a same line seperated by space
+
+	2. create a method that can print even numbers between 1~100
+
+	3. create a method that can calculate the age of the person
+
+	4. check eligibility to vote
 
 
 
