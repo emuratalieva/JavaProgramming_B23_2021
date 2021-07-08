@@ -20,6 +20,10 @@ public class VoidMethodsPractice {
 
         eligibleToVote(42, false);
 
+        System.out.println("----------------------------------------------");
+
+        calculate(10, '%', 2);
+
     }
 
 
@@ -61,7 +65,7 @@ public class VoidMethodsPractice {
     }
 
 
-    public static void calculate(int num1, int num2, char operator){ // +, -, *, /, %
+    public static void calculate(int num1,  char operator, int num2){ // +, -, *, /, %
 
         switch (operator){
             case '-':
@@ -81,7 +85,7 @@ public class VoidMethodsPractice {
                 break;
 
             case '%':
-                System.out.println("Remainder: " + (num1 * num2));
+                System.out.println("Remainder: " + (num1 % num2));
                 break;
 
             default:
