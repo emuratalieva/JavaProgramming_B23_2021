@@ -5,3 +5,45 @@ Topics: Custom Methods Intro:
 
 package name: day28_CustomMethods
 
+
+step1: print hello 5 times (loop)
+step2: print your name
+step3: print hello 5 times (loop)
+step4: print your school name
+steo5: print hello 5 times (loop)
+
+
+
+
+Method: function. grouping a series of code fragments
+
+	advantage: re-usable
+				easy to maintain
+
+
+
+
+	public  static   void  main(String[] arg){
+
+	}
+
+	declaring a method:
+		Access-midifier   specifiers   return-Type  methodName(Parameter){
+				code fragements
+		}
+
+		Access modifiers: public, protected, private, default
+					for now only use public
+
+		specifiers: static, final, abstract, synchronized
+				for now only use static
+
+		returnType: void, any DataType
+
+		methodName: any name
+
+
+
+
+
+
