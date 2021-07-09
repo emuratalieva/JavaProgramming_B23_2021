@@ -32,6 +32,15 @@ public class WarmUpTasks {
 
         formatFullName("cyBERtek", "scHooL");
 
+        System.out.println("--------------------------------------------");
+
+        printMaxNumber(20, 20);
+
+        System.out.println("---------------------------------------");
+        int[] array = {100, 200, 0, -1, 500, 30, 50};
+
+        printInDescendingOrder(array);
+
 
     }
 
@@ -75,6 +84,23 @@ public class WarmUpTasks {
 
     }
 
+    public static void printMaxNumber(int num1, int num2){
+
+        System.out.println(    (num1 > num2 ? num1 : num2)  +" is maximum number"     );
+
+    }
+
+    public static void printInDescendingOrder(int[] arr){
+        Arrays.sort(arr);    //{1,2,3,4}
+        int[] result = new int[arr.length];  //{4,3,2,1}
+
+        for (int i = arr.length-1, j =0 ;  i>=0 ; i--, j++){  // reversing the array
+              result[j]= arr[i];
+        }
+
+        System.out.println( Arrays.toString(result));
+
+    }
 
 }
 
