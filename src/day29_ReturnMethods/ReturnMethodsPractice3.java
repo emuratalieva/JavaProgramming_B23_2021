@@ -44,4 +44,7 @@ removeDuplicates:
 
 isAnagram:
     create a function that can check if two strings are anagram, return true if they are anagram
+
+    isAnagram("listen", "silent") ===> true
+    isAnagram("Java", "C#")   ===> false
  */

@@ -60,23 +60,11 @@ Monday: fundamental review sections
 	Arrays: single dimensional
 	methods
 
+Tuesday:
+	method Overloading
 
 
-    6. calculate the garde of the student based on the score
 
-    7. create a method that can reverse any String
-
-    8. write a method that can print out the unique elements from an array of string
-
-    9. write a method that can check if a string is plaindrome, print true if it's  otherwise print false
-
-    10. write a method that can remeove the duplicates from the string
-            "abababa"
-            "ab"
-
-    11. wirte a method that can print out the maximum number from any array of integers
-
-    12. wirte a method that can print out the minimum number from any array of integers
 
 
 
