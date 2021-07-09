@@ -19,3 +19,35 @@ warmup tasks:
 
 	5. create a function that can print out the array of integers in descending order
 
+
+
+method: grouping code fragments ===> create a function
+
+			                             MUST       MUSt
+		Access-Modifier   specifier   return-type  name  (Parameter){
+
+					code fargments
+
+		}
+
+		Acess modifier: public, protected, private, default
+
+		specifier: static
+
+		parameter: any dataType
+
+		returnType: void, any dataType
+				void: does not return any data
+
+
+
+
+
+
+
+
+
+
+
+
+
