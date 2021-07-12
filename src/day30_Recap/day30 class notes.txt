@@ -44,6 +44,42 @@ Arrays: Fixed Data Structure.
 
 
 
+for each loop: THERE MUST BE A DATA STRUCTURE
+
+				Iteration order is fixed ( first elemnt to last element)
+			
+
+			for(DataType  variableName   : Collection Of Data){
+
+			}
+
+
+
+Methods: function
+
+		public static returType methodName(parameters){
+				code fargments 
+		}
+
+		static: methods can be called through the class name
+
+		returnType: void, any dataType
+				void: does not return any data from the method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
