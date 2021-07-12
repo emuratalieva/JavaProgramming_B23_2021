@@ -59,12 +59,12 @@ public class ArraysReview {
         String[] group3 = new String[group1.length + group2.length]; //k
 
         int k = 0;
-        for(int i = 0; i <= group1.length-1; i++ , k++){
-            group3[k] = group1[i]; //
-        }
+        for(int i = 0; i <= group1.length-1; i++ ){
+            group3[k++] = group1[i]; //
+        } // 4
 
         for(int j = 0; j <= group2.length-1; j++, k++){
-            group3[k] = group2[j];
+            group3[k++] = group2[j];
         }
 
 
