@@ -1,5 +1,6 @@
 package day30_Recap;
 
+import utilities.StringUtility;
 
 public class MethodsReview {
 
@@ -7,6 +8,14 @@ public class MethodsReview {
 
         String str = "Java";
 
+       String r = StringUtility.reverse( str );
+
+        System.out.println(r);
+
+
+        String word = "Anna";
+
+        System.out.println(   StringUtility.isPalindrome( word )   );
 
 
     }
