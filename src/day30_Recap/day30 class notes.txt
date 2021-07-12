@@ -28,6 +28,30 @@ Loops: repeating
 	nested loop:  to repeat a loop
 
 
+Branching statments:
+	break: exits loop & switch
+	continue: skips the iteration
+	return: exits the method
+	System.exit
+
+
+
+Arrays: Fixed Data Structure. 
+		
+		int[] arr = new int[size];
+		int[] arr2 = {data1, data2..}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
