@@ -17,7 +17,15 @@ Loops: repeating
 			 		statement (3 if contion is true)
 		}
 
-	while loop
+
+	while loop:  repeated if statement
+
+		while(Condition){
+			statements
+		}
+
+
+	nested loop:  to repeat a loop
 
 
 
