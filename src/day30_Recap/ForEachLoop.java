@@ -1,5 +1,7 @@
 package day30_Recap;
 
+import java.util.Arrays;
+
 public class ForEachLoop {
 
     public static void main(String[] args) {
@@ -39,6 +41,30 @@ public class ForEachLoop {
 
         System.out.println(Math.E);
         System.out.println(Math.PI);
+
+
+        System.out.println("----------------------------------------------");
+
+
+        String[] group1 = {"Sophie", "Feruza", "Ekaterina"};
+        String[] group2 = {"Shazia", "Bilguun", "Danka", "Mucahit"};
+
+        String[] group3 = new String[group1.length + group2.length]; //i
+
+        int i = 0;
+
+        for (String name : group1) {
+             group3[i++]= name;
+        }
+
+        for (String name : group2) {
+            group3[i++]= name;
+        }
+
+        System.out.println(Arrays.toString(group3));
+
+
+
 
 
 

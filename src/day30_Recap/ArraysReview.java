@@ -63,7 +63,7 @@ public class ArraysReview {
             group3[k++] = group1[i]; //
         } // 4
 
-        for(int j = 0; j <= group2.length-1; j++, k++){
+        for(int j = 0; j <= group2.length-1; j++){
             group3[k++] = group2[j];
         }
 
