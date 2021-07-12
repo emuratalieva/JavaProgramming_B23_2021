@@ -1,11 +1,26 @@
 07/12/2021
 Review Topics:  
 				Loops (for & while & for each)
-				Branching statements
-				Arrays (single dimentional)
-				Methods
-				
-
+				Branching statements (break, continue, return, System.exit)
+				Arrays & Arrays Utility (single dimentional)
+				Methods: void & return methods
 
 Package name: day30_Recap
+
+
+Loops: repeating
+
+	for loop: if we know the number of repeatings (fixed repeating)
+
+			      1              2         4
+		for( Initialization; condition; Iteration ) {
+			 		statement (3 if contion is true)
+		}
+
+	while loop
+
+
+
+
+
 
