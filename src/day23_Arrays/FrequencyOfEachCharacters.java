@@ -4,7 +4,7 @@ public class FrequencyOfEachCharacters {
 
     public static void main(String[] args) {
 
-        String str = "aabccc";
+        String str = "aabccc";  //a2b1c3
 
         // step 1
         String removeDup = ""; //abc

@@ -42,6 +42,28 @@ public class WarmupTasks {
 
         System.out.println(unique);
 
+        System.out.println("--------------------------------------------------");
+        String s3 = "AAABBCCCC";  //A3B2C4
+
+        String result = ""; //A3B2C4
+
+        for (char each : removeDup(s3).toCharArray()) { // each: A, B C
+            int frequency =  frequency(s3, each); // gets the frequency of each character: 3, 2, 4
+            result += each ; //"ABC"
+            result += frequency;//"A3B2C4"
+        }
+
+
+        System.out.println(result);
+
+        System.out.println("--------------------------------------------");
+
+        String s4 = "MMMMMMMNNNNNNNHHHHHHHYYYYYTTTRREEE";
+        String result2 = frequencyOfChars(s4);
+
+        System.out.println(result2);
+
+
 
 
 
@@ -104,6 +126,20 @@ public class WarmupTasks {
         }
 
         return unique;
+    }
+
+
+    //frequencyOfChars("AAABBBBCC") ==> A3B4C2
+    public static String frequencyOfChars(String str){
+        String result = ""; //A3B2C4
+
+        for (char each : removeDup(str).toCharArray()) { // each: A, B C
+            int frequency =  frequency(str, each); // gets the frequency of each character: 3, 2, 4
+            result += each ; //"ABC"
+            result += frequency;//"A3B2C4"
+        }
+
+        return result;
     }
 
 
