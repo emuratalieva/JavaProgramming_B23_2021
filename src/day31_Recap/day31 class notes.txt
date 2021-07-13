@@ -17,8 +17,14 @@ warmup tasks:
                     frequencyOfWord(str, word) ==>  3
 
 	3.  write a return method named addElement that can add an Inteeger  after the  last index of an integer array
+			array = {1,2,3,4,5}
+			element = 6;
+
+			addElements(array, element) ==> {1,2,3,4,5,6}
+
 
 	4. create a return method named merge that can merger two arrays of integers
+			
 
 	5. create a return method named contains that accepts one interger array and one integer, returns true if the integer is contained in the array, otherwise returns false
 			Ex: array = {1,2,3,4,5}
