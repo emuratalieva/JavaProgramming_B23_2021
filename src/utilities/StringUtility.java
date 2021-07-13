@@ -87,5 +87,20 @@ public class StringUtility {
     }
 
 
+    //returns the frequncy each each characters, returns string
+    public static String frequencyOfChars(String str){
+        String result = ""; //A3B2C4
+
+        for (char each : removeDup(str).toCharArray()) { // each: A, B C
+            int frequency =  frequency(str, each); // gets the frequency of each character: 3, 2, 4
+            result += each ; //"ABC"
+            result += frequency;//"A3B2C4"
+        }
+
+        return result;
+    }
+
+
+
 
 }
