@@ -101,6 +101,19 @@ public class StringUtility {
     }
 
 
+    // returns the frequency of the word from the sentence
+    public static int frequencyOfWord(String sentence, String word){
+        int count = 0;  //3
+        sentence = sentence.toLowerCase();
+        word = word.toLowerCase();
+        while(sentence.contains(word)){
+            sentence =  sentence.replaceFirst(word , "");
+            count++;
+        }
+
+        return count;
+    }
+
 
 
 }
