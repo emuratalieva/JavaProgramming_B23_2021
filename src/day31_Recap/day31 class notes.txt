@@ -33,7 +33,37 @@ warmup tasks:
 				 reverse(array) ==> {5,4,3,2,1}
 
 
-	
+
+method: function. grouping a series of code fragments
+
+		 								 MUST			   MUST
+		AccessModifier    Specifier    returnType        methodName (Paremeter)  {  a series of code fragments   }
+			public         static       void/DataType			      dataType
+		
+
+
+		public: ALWAYS accessible
+
+		static: can be called through the class name
+
+		void methods: cannot return any data
+
+		return methods: MUST return a data
+
+		Parameter: dataType.
+					we pass parameter(s) if there is any data that the methods needs in order to complete its function
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

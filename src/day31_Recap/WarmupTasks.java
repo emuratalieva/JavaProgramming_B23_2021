@@ -1,5 +1,7 @@
 package day31_Recap;
 
+import java.util.Arrays;
+
 public class WarmupTasks {
 
 
@@ -11,6 +13,12 @@ public class WarmupTasks {
         String r = removeDup( str );
 
         System.out.println(r);
+
+        System.out.println("---------------------------------------");
+        String s1 = "Java",
+                s2 = "Batch 23";
+
+        System.out.println(  isAnagram(s1, s2)  );
 
 
 
@@ -34,7 +42,18 @@ public class WarmupTasks {
         return result;
     }
 
+    // "heart"  & "earth"  ==> isAnagram ==> true
+    public static boolean isAnagram(String str1, String str2){
+        char[] ch1 = str1.toCharArray(); //{'h', 'e', 'a', 'r', 't'}
+        char[] ch2 = str2.toCharArray(); // {'e', 'a', 'r', 't', 'h'}
 
-    //"AAABBBBCCCC" ===> "ABC"
+        Arrays.sort(ch1); // {a, e, h, r. t}
+        Arrays.sort(ch2); // {a, e, h, r. t}
+
+        return  Arrays.equals(ch1, ch2);
+
+    }
+
+
 
 }
