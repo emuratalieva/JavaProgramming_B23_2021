@@ -20,6 +20,29 @@ public class WarmupTasks {
 
         System.out.println(  isAnagram(s1, s2)  );
 
+        System.out.println("------------------------------------");
+        String word = "MMMMMMMMMMNNNNNNNNNNNAAAAA";
+
+        int n1 =  frequency(word, 'M');
+        System.out.println("n1 = " + n1);
+
+        System.out.println("-------------------------------------");
+
+        String s = "aaaaabcccccdeeeeef";
+
+        String unique = "";
+
+        for(int i = 0; i <= s.length()-1; i++){
+            char each = s.charAt(i);
+            int frequency =  frequency(s, each);
+            if(frequency == 1){
+                unique += each;
+            }
+        }
+
+        System.out.println(unique);
+
+
 
 
 
@@ -54,6 +77,34 @@ public class WarmupTasks {
 
     }
 
+    // frequency("AAAABB" , 'A') ===> 4
+    public static int frequency(String str, char ch){
+        int count = 0;
+
+        for (char each : str.toCharArray()) { // each: represents each character of str
+            if(each == ch){
+                count++;
+            }
+        }
+        
+        return count;
+    }
+
+
+    // unique characters
+    public static String uniqueChars(String s){
+        String unique = "";
+
+        for(int i = 0; i <= s.length()-1; i++){
+            char each = s.charAt(i);
+            int frequency =  frequency(s, each);
+            if(frequency == 1){
+                unique += each;
+            }
+        }
+
+        return unique;
+    }
 
 
 }

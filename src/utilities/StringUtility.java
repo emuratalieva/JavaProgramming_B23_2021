@@ -39,6 +39,8 @@ public class StringUtility {
         }
 
         return result;
+
+
     }
 
 
@@ -54,6 +56,35 @@ public class StringUtility {
 
     }
 
+
+    // returns the frequency of ch from the string str
+    public static int frequency(String str, char ch){
+        int count = 0;
+
+        for (char each : str.toCharArray()) { // each: represents each character of str
+            if(each == ch){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+
+    //returns the unique characters from the string
+    public static String uniqueChars(String s){
+        String unique = "";
+
+        for(int i = 0; i <= s.length()-1; i++){
+            char each = s.charAt(i);
+            int frequency =  frequency(s, each);
+            if(frequency == 1){
+                unique += each;
+            }
+        }
+
+        return unique;
+    }
 
 
 
