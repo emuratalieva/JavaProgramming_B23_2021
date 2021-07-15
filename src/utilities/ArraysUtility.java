@@ -39,19 +39,68 @@ public class ArraysUtility {
         return result;
     }
 
-    
+
     // adds char to char array
     public static char[] addElement(char[] array, char ch){
         char[] result = Arrays.copyOf(array, array.length + 1) ;//  { A, B, null }
         result[result.length-1] = ch; //  { A, B, C }
         return result;
     }
+    
+    // returns the maximum number from an array of int
+    public static int max(int[] array){
+        int max= array[0] ;
+
+        for (int each : array) {
+           max =  Math.max( each, max  );
+        }
+        
+        return max;
+    }
+
+
+    // returns the maximum number from an array of double
+    public static double max(double[] array){
+        double max= array[0] ;
+
+        for (double each : array) {
+            max =  Math.max( each, max  );
+        }
+
+        return max;
+    }
+
+
+    // returns the minimum number from an array of int
+    public static int min(int[] array){
+        int min= array[0] ;
+
+        for (int each : array) {
+            min =  Math.min( each, min  );
+        }
+
+        return min;
+    }
+
+    
+    // returns the minimum number from an array of double
+    public static double min(double[] array){
+        double min= array[0] ;
+
+        for (double each : array) {
+            min =  Math.min( each, min  );
+        }
+
+        return min;
+    }
+
 
 
 
 
     //1. create a function that can return the maximum number from an array of integer
             // max( new int[]{10,20,30} ) ==> 30
+
 
 
     //2. create a function that can return the minimum number from an array of integer
