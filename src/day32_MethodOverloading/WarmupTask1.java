@@ -17,6 +17,35 @@ public class WarmupTask1 {
 
         System.out.println("---------------------------------------------");
 
+        // 10+ 12;
+        int r1 = sum(10, 12);
+
+        // 100, 200, 300
+        int r2 = sum(100, 200, 300);
+
+        // 1000, 2000, 3000, 4000
+        int r3 = sum(1000, 2000, 3000, 4000);
+
+        System.out.println("r1 = " + r1);
+        System.out.println("r2 = " + r2);
+        System.out.println("r3 = " + r3);
+
+        // 10.5, 20.5
+        double r4 = sum(10.5, 20.5);
+
+        // 2.5, 3.2, 4.8
+      //  sum( (int)2.5, (int)3.2, (int)4.8  );
+        //    2           3       4
+
+       double r5 = sum(2.5, 3.2, 4.8);
+
+       //5.5, 10.5, 3.5, 20.5
+        double r6 = sum(5.5, 10.5, 3.5, 20.5);
+
+        System.out.println("r4 = " + r4);
+        System.out.println("r5 = " + r5);
+        System.out.println("r6 = " + r6);
+
 
 
 
@@ -37,11 +66,18 @@ public class WarmupTask1 {
 
 
     //-----------------------------method overloading-----------------------------------
+
     public static int sum(int a, int b){
         return a+b;
     }
 
+    public static double sum(double a, double b){ return a + b; }
+
     public static int sum(int a, int b, int c ){
+        return a + b + c;
+    }
+
+    public static double sum(double a, double b, double c){
         return a + b + c;
     }
 
@@ -55,7 +91,11 @@ public class WarmupTask1 {
     //    return  sum(a,b,c) + d;
         return a + b + c + d;
     }
-    
+
+    public static double sum(double a, double b, double c, double d){
+        return a + b+ c + d;
+    }
+
 
 }
 
