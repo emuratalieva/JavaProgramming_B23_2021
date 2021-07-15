@@ -95,19 +95,77 @@ public class ArraysUtility {
     }
 
 
+    
+    // merge two arrays of int
+    public static int[] merge(int[] arr1, int[] arr2){
+        int[] arr3 = new int[arr1.length + arr2.length]; // making sure that arr3 has enough capacity to contain the elements of arr1 and arr2
+        
+        int j = 0; // index
+        for (int each : arr1){ // each element in arr1
+            arr3[j++] = each;
+        }
+
+        for (int each : arr2) { // each element in arr2
+            arr3[j++] = each;
+        }
+        
+        return arr3;
+    }
+
+
+    // merge two arrays of double
+    public static double[] merge(double[] arr1, double[] arr2){
+        double[] arr3 = new double[arr1.length + arr2.length]; // making sure that arr3 has enough capacity to contain the elements of arr1 and arr2
+
+        int j = 0; // index
+        for (double each : arr1){ // each element in arr1
+            arr3[j++] = each;
+        }
+
+        for (double each : arr2) { // each element in arr2
+            arr3[j++] = each;
+        }
+
+        return arr3;
+    }
 
 
 
-    //1. create a function that can return the maximum number from an array of integer
-            // max( new int[]{10,20,30} ) ==> 30
+    // merge two arrays of String
+    public static String[] merge(String[] arr1, String[] arr2){
+        String[] arr3 = new String[arr1.length + arr2.length]; // making sure that arr3 has enough capacity to contain the elements of arr1 and arr2
+
+        int j = 0; // index
+        for (String each : arr1){ // each element in arr1
+            arr3[j++] = each;
+        }
+
+        for (String each : arr2) { // each element in arr2
+            arr3[j++] = each;
+        }
+
+        return arr3;
+    }
 
 
+    // merge two arrays of char
+    public static char[] merge(char[] arr1, char[] arr2){
+        char[] arr3 = new char[arr1.length + arr2.length]; // making sure that arr3 has enough capacity to contain the elements of arr1 and arr2
 
-    //2. create a function that can return the minimum number from an array of integer
-        // min( new int[]{10,20,30} ) ==> 10
+        int j = 0; // index
+        for (char each : arr1){ // each element in arr1
+            arr3[j++] = each;
+        }
 
+        for (char each : arr2) { // each element in arr2
+            arr3[j++] = each;
+        }
 
-
-
+        return arr3;
+    }
+    
+    
+    
+    
 
 }
