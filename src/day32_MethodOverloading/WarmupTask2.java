@@ -44,6 +44,20 @@ public class WarmupTask2 {
         return result;
     }
 
+                                    // {1.5, 2.5, 3.5},   4.5
+    public static double[] addDouble(double[] array,  double number){
+        double[] result =  Arrays.copyOf(array, array.length+1 );  //{1.5, 2.5, 3.5, 0.0};
+        result[result.length-1] = number; //{1.5, 2.5, 3.5, 4.5};
+
+        return result;
+    }
+
+                                    //{"A", "B"}         "C"
+    public static String[] addString(String[] array, String str){
+        String[] result = Arrays.copyOf(array, array.length + 1) ;//  { A, B, null }
+        result[result.length-1] = str; //  { A, B, C }
+        return result;
+    }
 
 
 
