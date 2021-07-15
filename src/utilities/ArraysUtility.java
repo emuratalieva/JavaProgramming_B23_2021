@@ -94,7 +94,6 @@ public class ArraysUtility {
         return min;
     }
 
-
     
     // merge two arrays of int
     public static int[] merge(int[] arr1, int[] arr2){
@@ -128,7 +127,6 @@ public class ArraysUtility {
 
         return arr3;
     }
-
 
 
     // merge two arrays of String

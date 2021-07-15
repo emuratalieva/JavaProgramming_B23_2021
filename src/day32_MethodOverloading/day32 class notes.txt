@@ -41,3 +41,31 @@ method overloading: multiple methods shares same method name.
 
 
 
+
+Tasks:
+
+1. create  a method named remove that accepts oen int array and one int (index).
+		
+		array = {10, 20, 30, 40}
+		index = 2;
+
+		remove(array, index) ==> {10,20,40}
+
+2. create  a method named remove that accepts oen double array and one int (index).
+
+2. create  a method named remove that accepts oen String array and one int (index).
+
+2. create  a method named remove that accepts oen char array and one int (index).
+		
+
+
+
+
+
+
+
+
+
+
+
+
