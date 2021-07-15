@@ -1,0 +1,100 @@
+Day_6
+				
+
+	Topics  :
+		- Unit Assesment_1    
+		- Array Intro 
+		- Array Tasks
+		- Foreach
+	
+===  Create a package named "Practice_Date" under the folder "officeHours"  ===
+
+
+Topic : Unit_1 Assesments
+
+Topic : Arrays 
+	
+	- Intro
+	- Array Methods 
+		- toString()
+		- equals()
+		- sort()
+	- String Methods 
+		- split
+		- toCharArray
+
+
+	Array Intro : 	
+
+
+	Task 1    : Write a program that accepts an array and prints an array with the elements "rotated left”
+		
+		int[] x = {1,2,3};			 // = > [2,3,1]
+		int[] y = {17,12,10,8};		 // = > [12,10,8,17] 
+		int[] a = {7,0,0}; 			 // = > [0,0,7]
+
+
+	Task 2 :	Write a program that accepts string and prints multiple words in the string				
+						
+        "knife, wooden spoons, plates, cups, forks, pan, pot, trash can, fridge, dish washer”
+         
+        output : wooden spoons	
+        		 trash can
+         		 dish washer
+
+
+	Task 3 : Write a program that accepts String array.Count how many names have the same first and last letter
+
+				Input : "Anna", "Mike", "Aliya", "Donald", "Muhtar", "Remus", "Mehmet","Asya"
+
+				Output : 4 
+    
+    Task 4 :  For Each - Nested For 
+
+    		Longest Palindrome
+       		 
+       		 Given a String array. Find the longest Palindrome String in your array.
+			        Ex:
+			        Input: [“java”, “longer word”, “civic” “apple”, “racecar”, “mom”, “anna”] Output: racecar
+			        Ex:
+			        Input: [“abc”, “dna”, “kevin”, “joe”, “lamp”]
+			        Output: No palindrome
+
+
+
+    Task 5 : Longest Repetitive Substring -- Real Interview Task
+
+
+    		Write a program if some substring K that can be repeated N>1 times to produce the input string exactly as it appears.
+    		Your program should return longest substring K, and 
+    		if there is none it should be return "There is no repetitive substring"
+
+    		For Example is str ="abcababcababcab"  			   output should be abcab
+    					   str ="abcdefabcdef"     			   output should be abcdef
+    					   str ="abcdefabcdefabcdefabcdef"     output should be abcdefabcdef
+    					   str ="abcdefxabcdef"				   output should be "There is no epetitive substring"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
