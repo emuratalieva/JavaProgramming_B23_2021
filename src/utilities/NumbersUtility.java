@@ -10,9 +10,6 @@ public class NumbersUtility {
 
     //subtraction
 
-    //max
-
-    // min
 
     //cube...
 

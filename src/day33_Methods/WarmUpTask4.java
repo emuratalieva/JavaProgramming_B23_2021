@@ -50,6 +50,16 @@ public class WarmUpTask4 {
 
         System.out.println(Arrays.toString(names));
 
+        System.out.println("------------------------------------");
+
+        Math.max(10, 20); // ==> 20
+        Math.min(10, 20); // ==> 10
+        Math.abs(-100); // ==> 100
+        Math.pow(10, 2); // 10*10 ==> 100
+        Math.sqrt(100); // 10
+
+       // Math.sin(60); //
+
 
 
 
