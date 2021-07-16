@@ -74,8 +74,10 @@ warmup tasks:
 
 
 
+jar: java available resources
 
-
+how to add external libaries in inteelij projects?
+	1. Project structure -> libraries - > + -> select jar files -> Apply -> OK
 
 
 
