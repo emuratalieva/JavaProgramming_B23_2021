@@ -9,7 +9,7 @@ public class WarmupTask2 {
         boolean r1 = contains(array, 10);
 
         System.out.println("r1 = " + r1);
-        
+
         
     }
     
