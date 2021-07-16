@@ -50,7 +50,7 @@ public class WarmUpTask4 {
 
         System.out.println(Arrays.toString(names));
 
-        System.out.println("------------------------------------");
+        System.out.println("--------------------------------------");
 
         Math.max(10, 20); // ==> 20
         Math.min(10, 20); // ==> 10
