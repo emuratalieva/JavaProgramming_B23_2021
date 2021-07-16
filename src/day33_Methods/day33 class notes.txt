@@ -1,0 +1,28 @@
+07/16/2021
+Topics: Method Overloading
+
+package name: day33_Methods
+
+warmup tasks:
+	Task 1:
+		1. create a method that can reverse an array of integer
+
+		2. create a method that can reverse an array of double
+
+		3. create a method that can reverse an array of String
+
+		4. create a method that can reverse an array of char
+
+	Task2:
+		1. create a method that accepts two parameters: one integer array and one integer number. The method returns true if the number is contained in the integer array, otherwise returns false
+
+		2. create a method that accepts two parameters: one double array and one double number. The method returns true if the decimal number is contained in the double array, otherwise returns false
+
+		3. create a method hat accepts two parameters: one String array and one String. The method returns true if the String is contained in the String array, otherwise returns false
+
+		4. create a method hat accepts two parameters: one char array and one char. The method returns true if the char is contained in the char array, otherwise returns false
+```
+
+
+
+
