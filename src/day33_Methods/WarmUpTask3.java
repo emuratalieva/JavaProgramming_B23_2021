@@ -2,6 +2,25 @@ package day33_Methods;
 
 public class WarmUpTask3 {
 
+
+    public static void main(String[] args) {
+        int[] array = {1,1,1,2,3,3,4,5,5,6};  //{2, 4, 6}
+        int[] result = {};
+
+        for (int each : array) {
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
                                 //{1,1,2,3} ,   1
     public static int frequency(int[] array, int element){
         int count = 0;
@@ -13,8 +32,46 @@ public class WarmUpTask3 {
         }
 
         return count;
-
     }
+
+    public static int frequency(double[] array, double element){
+        int count = 0;
+
+        for (double each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public static int frequency(String[] array, String element){
+        int count = 0;
+
+        for (String each : array) {
+            if(each.equals( element ) ){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public static int frequency(char[] array, char element){
+        int count = 0;
+
+        for (char each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+
+
 
 
 
