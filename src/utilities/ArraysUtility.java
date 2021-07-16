@@ -21,7 +21,7 @@ public class ArraysUtility {
 
         return result;
     }
-
+    // when i call this method i can pass one array and one integer, then it adds the integer to the array
 
     //adds double to a double array
     public static double[] addElement(double[] array,  double number){
