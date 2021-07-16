@@ -1,7 +1,6 @@
 package day33_Methods;
 
 
-
 public class WarmupTask2 {
 
     public static void main(String[] args) {
@@ -10,8 +9,7 @@ public class WarmupTask2 {
         boolean r1 = contains(array, 10);
 
         System.out.println("r1 = " + r1);
-
-
+        
         
     }
     
