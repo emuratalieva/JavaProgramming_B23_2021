@@ -21,7 +21,7 @@ warmup tasks:
 		3. create a method hat accepts two parameters: one String array and one String. The method returns true if the String is contained in the String array, otherwise returns false
 
 		4. create a method hat accepts two parameters: one char array and one char. The method returns true if the char is contained in the char array, otherwise returns false
-```
+
 
 
 
