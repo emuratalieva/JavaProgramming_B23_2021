@@ -23,6 +23,26 @@ public class WarmUpTask0 {
 
         System.out.println(Arrays.toString(array1));
 
+        System.out.println("----------------------------------------------------");
+
+        String[] students = {"Dilem", "Aysu", "Mucahit", "Tugba", "Fhilipp"};  // index 2
+
+        students = remove(students, 2); // [Dilem, Aysu, Tugba, Fhilipp]
+
+        System.out.println(Arrays.toString(students));
+
+        students = remove(students, 3);
+
+        System.out.println(Arrays.toString(students));
+
+
+        System.out.println("-------------------------------------------------------");
+
+
+
+
+
+
 
 
     }
@@ -72,9 +92,50 @@ public class WarmUpTask0 {
     }
 
 
-    //{1,2,3,4,5} , 2
+    // remove the element at given index of the array
+    public static String[] remove(String[] array, int index){
 
-    //{1,2,4,5}
+        if(index < 0 || index > array.length -1 ){ // if the given index number is invalid
+            System.err.println("Invalid Index");
+            System.exit(0); // exits the system
+        }
+
+        String[] result = new String[array.length-1];
+
+        for(int i = 0, j = 0; i < array.length; i++ ){
+            if(i == index){ // stores all the elements of array except the element at given index
+                continue;
+            }else{
+                result[j++]  = array[i];
+            }
+        }
+
+        return result;
+    }
+
+
+    // remove the element at given index of the array
+    public static char[] remove(char[] array, int index){
+
+        if(index < 0 || index > array.length -1 ){ // if the given index number is invalid
+            System.err.println("Invalid Index");
+            System.exit(0); // exits the system
+        }
+
+        char[] result = new char[array.length-1];
+
+        for(int i = 0, j = 0; i < array.length; i++ ){
+            if(i == index){ // stores all the elements of array except the element at given index
+                continue;
+            }else{
+                result[j++]  = array[i];
+            }
+        }
+
+        return result;
+    }
+
+
 
 
 
