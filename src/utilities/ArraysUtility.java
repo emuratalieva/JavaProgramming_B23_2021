@@ -288,6 +288,7 @@ public class ArraysUtility {
     }
 
 
+    //checks if the given element is contained in the given array, returns boolean
     public static boolean contains(int[] array, int element){
 
         for (int each : array) {
@@ -299,6 +300,7 @@ public class ArraysUtility {
         return false;
     }
 
+    //checks if the given element is contained in the given array, returns boolean
     public static boolean contains(double[] array, double element){
 
         for (double each : array) {
@@ -310,6 +312,7 @@ public class ArraysUtility {
         return false;
     }
 
+    //checks if the given element is contained in the given array, returns boolean
     public static boolean contains(String[] array, String element){
 
         for (String each : array) {
@@ -321,6 +324,7 @@ public class ArraysUtility {
         return false;
     }
 
+    //checks if the given element is contained in the given array, returns boolean
     public static boolean contains(char[] array, char element){
 
         for (char each : array) {
@@ -331,6 +335,113 @@ public class ArraysUtility {
 
         return false;
     }
+
+
+    // returns the unique elements from the array
+    public static int[] unique(int[] array){
+        int[] result = {};
+
+        for (int each : array) { // getting each elements
+            if(  frequency(array, each)  == 1   ){ // unique element
+                result =  ArraysUtility.addElement(result, each );
+            }
+        }
+
+        return result;
+    }
+
+    // returns the unique elements from the array
+    public static double[] unique(double[] array){
+        double[] result = {};
+
+        for (double each : array) { // getting each elements
+            if(  frequency(array, each)  == 1   ){ // unique element
+                result =  ArraysUtility.addElement(result, each );
+            }
+        }
+
+        return result;
+    }
+
+    // returns the unique elements from the array
+    public static String[] unique(String[] array){
+        String[] result = {};
+
+        for (String each : array) { // getting each elements
+            if(  frequency(array, each)  == 1   ){ // unique element
+                result =  ArraysUtility.addElement(result, each );
+            }
+        }
+
+        return result;
+    }
+
+    // returns the unique elements from the array
+    public static char[] unique(char[] array){
+        char[] result = {};
+
+        for (char each : array) { // getting each elements
+            if(  frequency(array, each)  == 1   ){ // unique element
+                result =  ArraysUtility.addElement(result, each );
+            }
+        }
+
+        return result;
+    }
+
+
+    // returns the frequency of the given element for the given array
+    public static int frequency(int[] array, int element){
+        int count = 0;
+
+        for (int each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    // returns the frequency of the given element for the given array
+    public static int frequency(double[] array, double element){
+        int count = 0;
+
+        for (double each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    // returns the frequency of the given element for the given array
+    public static int frequency(String[] array, String element){
+        int count = 0;
+
+        for (String each : array) {
+            if(each.equals( element ) ){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    // returns the frequency of the given element for the given array
+    public static int frequency(char[] array, char element){
+        int count = 0;
+
+        for (char each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
 
 
 
