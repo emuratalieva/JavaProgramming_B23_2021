@@ -1,6 +1,7 @@
 package day33_Methods;
 
 import java.util.Arrays;
+import utilities.ArraysUtility;
 
 public class WarmUpTask0 {
 
@@ -37,6 +38,13 @@ public class WarmUpTask0 {
 
 
         System.out.println("-------------------------------------------------------");
+
+        char[] chars1 = {'A', 'B', 'C', 'D', 'E'};
+        char[] chars2 = {'F', 'G', 'H', 'I', 'J'};
+
+         char[] chars3 = ArraysUtility.merge(chars1, chars2);
+
+        System.out.println(Arrays.toString(chars3));
 
 
 
