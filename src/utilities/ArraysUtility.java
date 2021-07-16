@@ -443,6 +443,57 @@ public class ArraysUtility {
     }
 
 
+    // removes duplicates from the given array
+    public static int[] removeDup(int[] array){
+        int[] newArr = {};
+
+        for (int each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+    // removes duplicates from the given array
+    public static double[] removeDup(double[] array){
+        double[] newArr = {};
+
+        for (double each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+    // removes duplicates from the given array
+    public static String[] removeDup(String[] array){
+        String[] newArr = {};
+
+        for (String each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+    // removes duplicates from the given array
+    public static char[] removeDup(char[] array){
+        char[] newArr = {};
+
+        for (char each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
 
 
 

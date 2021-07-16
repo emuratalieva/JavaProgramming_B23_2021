@@ -36,6 +36,19 @@ public class WarmUpTask4 {
 
         System.out.println("-------------------------------------------");
 
+        int[] numbers = {2,3,4,2,3,4,5,6,6,7,7,7,8,9,9,9};
+
+        int[] r1 = removeDup(numbers);
+
+        System.out.println(Arrays.toString(r1));
+
+
+        System.out.println("--------------------------------------");
+
+        String[] names = {"Mohammed", "David", "John", "Ahmet", "Mohammed", "Ahmet"};
+        names = removeDup(names);
+
+        System.out.println(Arrays.toString(names));
 
 
 
@@ -55,6 +68,41 @@ public class WarmUpTask4 {
         return newArr;
     }
 
+    public static double[] removeDup(double[] array){
+        double[] newArr = {};
+
+        for (double each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+    public static String[] removeDup(String[] array){
+        String[] newArr = {};
+
+        for (String each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
+
+    public static char[] removeDup(char[] array){
+        char[] newArr = {};
+
+        for (char each : array) {
+            if( !ArraysUtility.contains(newArr, each)){
+                newArr = ArraysUtility.addElement(newArr, each );
+            }
+        }
+
+        return newArr;
+    }
 
 
 
