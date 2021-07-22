@@ -37,10 +37,10 @@ Practice Topics
 				    		 that, given a positive integer N  However, any number divisible by 2, 3 or 5 shouldbe replaced by the word  
 				    			
 				    			Codility -- 2
-				    			Test     -- 3
+				    			MyInterface     -- 3
 				    			Coders   -- 5  
 
-				    			- If a number is divisible by more than one of the numbers:2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order.
+				    			- If a number is divisible by more than one of the numbers:2,3 or 5, it should be replaced by a concatenation of the respective words Codility, MyInterface and Coders in this given order.
 
 				    			EXPECTED 
 
