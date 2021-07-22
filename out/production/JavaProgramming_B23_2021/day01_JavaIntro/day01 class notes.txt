@@ -1,0 +1,74 @@
+05/18/2021
+Topics:
+		Intro to Programming
+		Environment setup
+
+download:
+	1. sublime: text editor
+	2. IntelliJ
+	3. JDK 8
+
+
+file: store data/info
+		
+		different types o files:
+				text file                    .txt
+				picture files                .jpg, .png
+				PDF files					 .pdf
+
+				java files					 .java
+				SQL files					 .sql
+				HTML files					 .html
+
+				preoperties files             .properties
+				feature files				  .feature
+
+folder: store files. in an organized manner
+
+
+
+ascii table: a universal system that's understood by all computers.
+			A ==> 65
+
+			a ==> 97
+
+
+shortcuts:
+	windows:
+		copy: ctrl + c
+		paste: ctrl + v
+		undo: ctrl + z
+
+
+
+	Mac:
+		copy: Command + c
+		paste: Command + v
+		undo: command + z
+
+
+in powershell/terminal:
+		java -version
+
+how to create project in IntelliJ:
+	File -> new -> Project -> Java -> next -> next -> Project Name & Project Location -> Finish 
+
+preference window of intelliJ:
+	windows:
+		file -> settings
+
+	Mac:
+		Intellij IDE -> preferences
+
+
+set compiler version:
+	windows:
+		file -> settings -> Build, execution,deployment -> Compiler -> Java compiler -> set byte code version to 8
+
+	Mac: 
+		Intellij IDE -> preferences -> Build, execution,deployment -> Compiler -> Java compiler -> set byte code version to 8
+
+
+
+
+

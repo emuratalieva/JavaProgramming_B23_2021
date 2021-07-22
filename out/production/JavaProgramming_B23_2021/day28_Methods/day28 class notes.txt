@@ -1,0 +1,75 @@
+07/08/2021
+Topics: Custom Methods Intro:
+			void methods with/without the parameters
+
+
+package name: day28_CustomMethods
+
+
+step1: print hello 5 times (loop)
+step2: print your name
+step3: print hello 5 times (loop)
+step4: print your school name
+steo5: print hello 5 times (loop)
+
+
+
+
+Method: function. grouping a series of code fragments to create a function
+
+	advantage: re-usable
+				easy to maintain
+
+
+
+
+	public  static   void  main(String[] arg){
+
+	}
+
+	declaring a method:
+		Access-midifier   specifiers   return-Type  methodName(Parameter){
+				code fragements
+		}
+
+		Access modifiers: public, protected, private, default
+					for now only use public
+
+		specifiers: static, final, abstract, synchronized
+				for now only use static
+
+				static: can be called through the class name
+
+					Arrays.toString()
+					Arrays.sort()
+
+
+		returnType: void, any DataType
+					void: method does not return any data
+
+		methodName: any name
+
+		parameter: any dataType
+
+			method with parameter: we need it if method requires extra infomations to complete its functionality
+
+task:
+	1. create a method that can print odd numbers between 1~100 in a same line seperated by space
+
+	2. create a method that can print even numbers between 1~100
+
+	3. create a method that can calculate the age of the person
+
+	4. check eligibility to vote
+
+
+come back at 12:40
+Canvas -> Java -> modules -> day28 -> Arrays Short quiz
+
+
+afternoon' class: 2pm
+
+
+	
+
+

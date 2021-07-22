@@ -1,0 +1,147 @@
+05/28/2021
+Topics: 
+		Shorthand Operators: =, +=, -=, *=, /=, %=
+		relational Operators: >, <, >=, <=, ==, !=
+
+					&&, ||
+		
+
+package name: day07_ShortHand_Relational
+
+warmup tasks:
+	1. write a program that can swipe two variables' value by using a temporary variable
+			ex:
+				if a= 10, b=15
+
+				output:
+					a = 15
+					b = 10
+
+	2. manually calculate the following code fragements:
+
+                1. int a = 100;
+                   int b = -a++ + ++a - a-- * a-- % 2
+
+
+
+ShortHand: for numbers. re-assigns the variable
+	=: asisgnement
+		int a = 5;
+			a = 10;
+			sout(a); // 10
+
+
+	+=: addition assignement ( can be applicable to string)
+		a = 20;
+		a = a + 10;  ==   a+=10
+
+
+Relational Operators:
+	>: greater
+		10 > 10 ==> false
+
+	>=: greater or equal
+
+		 10 >= 10 ==> true
+
+	<: less
+
+	<=: less than or equal
+
+	==: equal
+
+	!=: not equal
+
+
+
+or logic: ||  either. if either one is true, will return true
+	True: at least one condition is true
+	False: if both conditions are false
+
+	eiteher prime meber  or   price>= 25
+
+
+and logic: &&  both. if both conditions are true, will return true
+	True: if both conditions are true
+	False: at least one condition is false
+
+	to Vote:
+		1. MUST be US citizen
+		2. at least 18 years old
+
+		Must be US citizen  OR  at least 18 years old
+
+
+
+task:
+	1.eligible to buy alcohol
+	2. valid triangle: sum of three angles MUST be 180
+			a1, a2, a3
+
+			(a1 + a2 + a3)  == 180 // first get the sum of three angles, then compare it with 180
+
+	PassOrFail
+			pass: score >= 60
+			fail: score <60
+
+
+	3. EligileForLoan
+			income has to be at least 60k
+			at least have 2 years of work history
+			at least have 700 of credit score 
+			at least 18 years old
+
+		variables:	name, age, workHistory, creditScore, income
+
+	4. PosNegZero
+			write a program that can check if a number is Positive, negative or zero
+
+				Ex:
+					number = 100;
+
+				    output:
+				    	100 is positive number: true
+				    	100 is negative number: false
+				    	100 is zero: false
+
+
+	5. OddOrEven
+			number = 11;
+
+			even:  number%2 == 0;
+
+			odd:   number%2 != 0;
+					even == false
+
+
+
+
+  "A" + 12 ==> A12
+  'A' + 12 ==> 77
+
+
+
+operators:
+	+, -, *, /, %
+	--, ++
+	=, +=, -=, /=, %=
+	>, >=, <, <=, ==, !=
+
+
+	!: not
+	!true ==> false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

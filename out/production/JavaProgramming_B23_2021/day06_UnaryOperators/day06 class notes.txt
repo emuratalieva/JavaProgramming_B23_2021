@@ -1,0 +1,125 @@
+05/27/2021
+Topics: Operator Precedence
+		Primitive Castings
+		Unary Operators
+
+package name: day06_UnaryOperators
+
+
+Warmup tasks:
+	1. create a class named FlightTicket, and declare the following variables:
+			 from, to, ticketPrice
+
+			 use concatenation to display the full info of the ticket
+
+			 ex:
+			 	 From Las Vegas to McLean is $425.5
+
+
+	2. create a class named LeapYear, and write a program that can identify if the given is Leap Year, print true if it's leap year, otherwise print false
+		Ex:
+				year = 2020 
+
+			output:
+				2020 is leap year: true
+
+
+		Hint: if the number of years can be evenly divisible by 4, it's known as the leap year
+
+		2012, 2020, 2000....
+
+		2012/4 ==> 503
+		remainder: 2012 - (4 * 53) = 0
+
+		2013/4 ==> 503
+		remainder: 2013%4  ==>1
+
+
+		year % 4   ==  0
+					=
+
+		2010 % 2 ==> 0
+		2010 % 4 ==> 2
+
+
+
+Operator Precedence:
+		
+		highest: *, /, %
+		lowest: - , +
+
+		()
+
+		2 + 3 * 10 = 32
+		(2 + 3) * 10 = 50
+
+
+
+Primitive Castings: converting one primitive type to another
+		
+		double > float > long > int > short > byte
+
+		lerager primitive type cannot be directly assigned to smaller type
+
+		2 types:
+			implicit casting (DON'T need to know): casting smaller type to larger. automatically done
+
+					double a = 3
+						 a ==> 3.0
+
+						long l	= 10;
+						     l ==> 10l;
+
+			explicit casting (MUST KNOW): casting larger type to smaller type. manually done
+
+					double a = 3;
+
+					int b = (int)a;
+
+
+
+
+10 + 20 = 30
+-10 + 20 = 10
+
+-1000 > 0 ==> false
+
+
+unary operators:
+	+: positive
+	-: negative
+	++: increment. increases the value by 1
+	--: decreament. decreases the value by 1
+
+	2 types of increament/decreament:
+
+		pre: change the value by 1 immediately
+
+			++b
+			--c
+
+		post: first pass the current value, then change it by 1
+
+			b++
+			c--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

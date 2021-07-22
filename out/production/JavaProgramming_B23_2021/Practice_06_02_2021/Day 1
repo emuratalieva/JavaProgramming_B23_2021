@@ -1,0 +1,80 @@
+Day 1
+
+Practice Topics 
+			
+				- Package Settings, Java Compiler,Invalidate Cashes, Updates etc
+				- Escape Sequences
+				- Variable
+				- Concatenation
+				- Aritmetic Operators
+				- Primitive Casting 
+				- Unary
+				- Shortand
+				- Relational
+
+
+
+Warmup tasks:
+			
+			Task01:
+					1.  Create directory named "OfficeHours" under the folder "Java Programming B23"
+					2.  Right Click Over folder ,choose "Mark Directory As" make it "Sources Root"
+					3.  Create a package named "Practice_Date"
+
+
+
+
+			Task02:   Variables(Primitives - Non Primitives ),Concatenation and Escape Sequences 
+
+					  Create class named "PersonInfo" and make a main method 
+
+						    Create variables and give value related to you:
+
+						        - String name
+						        - byte age
+						        - char gender
+						        - boolean student
+						        - short number of siblings
+						        - long favorite number
+						        - int number of seasons in your area
+						        - double birth date: (month.day)
+						        - int year
+						        - String full birthday date with year
+						        - String favorite quote
+						        - Print the person information with using concat/escape characters 
+
+						    
+
+
+
+			Task03:   Casting and Variables Practice 
+
+			Task04:   Aritmetic Operators 
+
+						1. Create class named "TemperatureConverter" and make a main method 
+
+						- Write a Java program to convert temperature from Fahrenheit to Celsius degree
+						- Input a degree in Fahrenheit: 212
+
+							Formula : 		C = (5(F-32))/9
+							
+							Expected Output:
+							212.0 degree Fahrenheit is equal to 100.0 in Celsius 
+
+						2.Create class named "TimeConverter" and make a main method 
+
+						- Write a Java program to convert time from second to hours/min/day format 
+						- Input Seconds : 3695
+
+							
+							Expected Output:
+							inputSeconds is 3695
+							1 hours 1 minutes 35 seconds
+
+
+
+			Task05:   Relational,Unary,Shortand Practice 
+
+
+
+

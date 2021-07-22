@@ -1,0 +1,110 @@
+06/18/2021
+Java Recap: String
+
+package name: day18_Recap
+
+1. Ask user to enter a word. If the work contains starts with x, print the word without x.
+                    Input:
+                        xcode
+
+                    Output:
+                        code
+
+2. Ask user to enter two words. Then add them together and print. But if the last letter if the first word and the first letter of the last letter is the same, print that character once.
+                    Input:
+                        one
+                        eight
+
+                    Output:
+                        oneight
+
+3. Ask user to enter a word, 
+		if the word starts with digits, print "first character is digit"
+		if the word starts with uppercase letters, print "first character is lowercase letter"
+		if the word starts with lowercase letters, print "first character is uppercase letter"
+		if the word starts with special characters, print "first character is special character"
+
+String:
+		
+		object
+
+		immutable
+
+		char sequences
+
+
+
+String methods: charAt, length, toLowerCase, toUpperCase, trim, indexOf, lastIndexOf, substring, replace, replaceFirst
+				isEmpty, equals, equalsIgnoreCase, contains, startsWith, endsWith
+
+				charAt(index): returns char. rteurns the character at the given index
+
+				length(): rteuns int. returns total number of characters
+							last index: length() -1
+
+				toLowerCase/toUpperCase: returns new string
+							String str = "JAVA";
+									str = str.toLowerCase(); //"java"
+
+									sout(str); //java
+
+				trim(): returns new string. removes all the white spaces
+
+								String str = "     ";
+										str.trim(); //""
+
+
+				indexOf( character(s) ): returns int.
+				lastIndexOf(character): returns int.
+
+				substring(beigging, ending index): returns new String. crtes substring starting from given beginning index till ending index. ENDING INDEX IS EXCLUDED
+
+				replace(old, new): returns new string. replaces ALL old value with given new value
+							str = "Dog Cat";
+							str = str.replace("Cat", "Dog"); // "Dog Dog"
+
+				replaceFirst(old, new):returns new string. replaces FIRST old value ONLY with given new value
+
+
+
+Task: 
+	1. EmailTask1:
+			Assume that email address is constructed by person's first name and followed by an underscore and last name.
+			Write a program that can swap first name with last name in the email (Seperated by an underscore). If the email doesn't contain an underscore print the given input email.	
+
+			Ex:
+				input: mike_tyson@gmail.com
+				output: tyson_mike@gmail.com
+
+
+
+	2. EmailTask2:
+		Assume that email address is constructed by person's first name and followed by an underscore and last name.
+		Write a program that will print out information about user based on email. Print first name, last name, and domain.
+	   	First and Last name should be printed with proper format - uppercase first letter and remaining lowercase.
+
+   			Ex:
+   				input: 
+   					craig_federighi@apple.com
+
+				Output: 
+					First name: Craig
+					Last name: Federighi
+					Domain: apple
+
+
+
+
+
+
+next topic: Loops
+					for loop
+					while loop
+					do-while loop
+					nested loop
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+06/01/2021
+Topics: 
+		1. Logical Operators: &&, ||, !
+		2. Single If Statements
+		
+
+package name: day08_IfStatements
+
+Office Hours: 3 ~ 5pm every wednesday
+
+
+Logical operators: ONLY for boolean
+		&&: and logic (both)
+
+				 6 > 7  && 6 > 5
+				 false && true ==> false
+
+
+		||: or logic (either)
+				
+				6 > 7  || 6 > 5
+				false  || true   ==> true
+
+		!: opposite
+			
+			!true ==> false
+			!false ==> true
+
+
+			OddOrEven
+
+				even =  number%2 ==0;
+				!even ==> odd
+
+
+single if statements:
+		
+		syntax:
+			if (boolean){
+				statements
+			 }
+
+
+			 "Congrats you passed the exam"
+
+
+Canavs -> Java Programming -> day08 module -> variables short quiz
+		
+		due by 12pm
+
+
+
+Thursday:
+	if & else statements
+	multi-branch if statements
+
+

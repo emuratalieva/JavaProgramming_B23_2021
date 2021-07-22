@@ -1,0 +1,70 @@
+07/09/2021
+Topics: ReturnMethods
+
+Package Name: day29_ReturnMethods
+
+warmup tasks:
+	1. create a function that can check if the given integer is positive, negative or zero 
+
+	2. create a function that can print out the combination of two integer arrays
+
+	3. create a function that can print out the full name of a person in regular format
+	            ex:
+	               fullName("cYbErTeK", "SCHOOL"); 
+
+	                output:
+	                    "Cybertek School"
+
+	4. create a function that can print out the maximum number between two numbers
+
+	5. create a function that can print out the array of integers in descending order
+
+
+
+method: grouping code fragments ===> create a function
+
+			                             MUST       MUSt
+		Access-Modifier   specifier   return-type  name  (Parameter){
+
+					code fargments
+
+		}
+
+		Acess modifier: public, protected, private, default
+
+		specifier: static
+					static: methods can be called through the class name
+
+							ClassName.method()
+
+		parameter: any dataType
+
+		returnType: void, any dataType
+				void: does not return any data
+				dataType: method needs return a value
+
+
+
+return methods: return-type of the method is not void
+				MUST return a value
+
+return statement: used for exiting the method.
+					we can also use it to return a vlaue
+
+come back 2:10 pm
+
+
+Monday: fundamental review sections
+	Loops: for & while & for each
+	String
+	Arrays: single dimensional
+	methods
+
+Tuesday:
+	method Overloading
+
+
+
+
+
+

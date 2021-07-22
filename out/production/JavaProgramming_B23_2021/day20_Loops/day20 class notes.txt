@@ -1,0 +1,43 @@
+06/22/2021
+Topics: branching statements
+
+package name: day20_Loops
+
+warmup tasks:     
+	1. Write a program that can return the factorial number of any given number
+
+            Ex:
+                input: 5
+                output: 120  ( because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
+
+
+    2. write a program that can return the frequncy of the a word Java from the sentence 
+
+        Ex:
+            sentence = "Java Java";
+           
+            output:
+                2
+
+    3. write a program to print true if the string "cat" and "dog" appear the same number of times in the given sentence
+
+    	Ex:
+    		sentence = "cat dog dog cat"
+
+    		output:
+    			true
+
+	4. Write a program that calculates the sum of numbers entered by the user until user enters a negative number.
+
+            hint: you need an infinite loop
+
+
+Branching Statements:
+		break statement: exits the loop & switch 
+		continue statement: skips the current iteration
+
+
+
+
+
+

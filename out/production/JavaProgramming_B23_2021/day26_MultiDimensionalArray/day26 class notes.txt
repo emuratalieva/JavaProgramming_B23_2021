@@ -1,0 +1,124 @@
+07/02/2021
+Topics: Multi-Dimensional array: 2D, 3D, 4D... nD
+		Java Recap (Loops & Arrays)
+
+Package Name: day26_MultiDimensionalArray
+
+Warmup tasks:
+	write a program that can mobve all the zeros to the end of the array
+		Ex:
+			array = {10, 0, 5, 0, 1, 0};
+
+			output:
+				{10, 5, 1, 0, 0, 0}
+
+
+
+single dimensional arrays: contains elements
+	int[] arr = {1,2,3,4,5};
+	//index:     0,1,2,3,4
+
+	[index of Elements]
+
+	Arrays.toString : used for printing single dimensional array ONLY
+
+multi-dimensinal arrays: contains arrays
+
+			n dimensioanl array MUST contains (n-1) dimentional arrays
+			4							        3	
+
+			2 dimeonal array: conatins 1 dimensional array
+				{1,2,3}
+				{4,5}
+				{6,7,8,9}
+
+				//				   0 1 2     0 1      0 1 2 3
+				int[][] arr2D = { {1,2,3} , {4,5} ,  {6,7,8,9}  };
+				//				     0,       1,         2
+
+				[index num of 1D array][index num of elements]
+
+				 arr2D[2] ===> {6,7,8,9} 
+				 arr2D[2][3] ===> 9
+
+
+			 3 dimensional array: contains two dimensional arrays
+
+			 		//index of elements: 0 1 2   0 1       0 1 2   0 1
+			 		//	 				   0      1          0       1    
+			 		int[][][] arr3D = { {{1,2,3},{4,5}} , {{6,7,8},{9,10}}  };
+			 		//							0              1 
+
+			 		[index of 2D arrays][index of 1D array][index of elemnts]
+
+
+	 		4 dimensional array: contains 3 dimensional arrays
+
+
+
+
+
+
+
+
+ Arrays.deepToString: used for printing single dimensional array ONLY
+
+
+
+Task:
+use for each loop to print each names of the fgiven array:
+	String[][][][][] names = { {  {{{"Viktoria", "Feruza"},{"Koray", "Break"} }, {{"Komiljon", "Yasin"}}}   , { {{"Alexandra", "Merve"}, {"Zaur", "Vulkasin"} }}} };
+
+
+Write a program that can print out the common elements from two integer array
+          Ex:
+              arr1: {1,2,3,4,5}
+              arr2: {4,5,6,7,8}
+
+          output:
+              4 5
+          
+          solution 1:
+              DO NOT use for each loop
+              
+          solution 2:
+              MUST use for each loops
+
+	Given: 
+		int arr2D[][] = { {1,2,3} ,  {4,5,6,7,8} ,  {9,10,11,12,13} };
+
+            task1:
+                9 10 11 12 13
+                4 5 6 7 8
+                1 2 3
+
+
+            task2: 
+                3 2 1
+                8 7 6 5 4
+                13 12 11 10 9
+                
+            task3:
+                13 12 11 10 9
+                8 7 6 5 4
+                3 2 1
+
+
+
+
+ write a program that can find the maximum & minimum number from any two dimensional array
+                {{10,20,30},{40,50,60,70,80}};
+                max: 80
+                min: 10
+
+
+
+Thursday:
+	custom methods
+	
+
+
+
+
+
+

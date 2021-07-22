@@ -1,0 +1,118 @@
+Day 4 
+
+
+				Topics  :    
+							- String Quiz
+							- String Methods
+							- For Loop
+
+
+				
+								
+			
+				===  Create a package named "Practice_Date" under the folder "officeHours"  ===
+
+
+			Topic : String Methods
+
+				 Task 1 :     Move first word
+
+					    Given a sentence. Display the sentence with the first word moved to the end of the sentence. Ex:
+						    
+						    Input: Java is a fun language
+						    
+						    Output: is a fun language Java
+						    
+						    Hint: Use indexOf and substring
+
+
+				Task 2 : 
+				
+						Given a string, return a string length 2 made of its first 2 chars. 
+						If the string length is less than 2, use '@' for the missing chars.
+						
+						"hello" → "he" 
+						"hi" 	→ "hi" 
+						"h"	    → "h@"		
+
+				Task 3 : Assume that you searched a word in Google  Search Engine.After that you took a result message like 		 this	
+
+
+						 "About 640,000,000 results (0.78 seconds)"
+
+						 According to this result print out search Time and number of Result
+ 
+						 Input :  "About 640,000,000 results (0.78 seconds)"
+
+						 Output:
+						 			Result number is 640,000,000
+						 			Response time is 0.78 seconds 
+
+
+			    Task 4 : Assume that you searched a baby toy in Etsy.When you open related category your url is :
+
+			    			"https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?ref=catnav-11049"
+			    									(main category)
+
+						 According to this result print out main category name 
+ 
+						 Input :  https://www.etsy.com/c/toys-and-games/toys/baby-and-toddler-toys?ref=catnav-11049
+
+						 Output:
+						 			Main Category name is  toys and games
+
+						 Input :  https://www.etsy.com/c/toys-and-entertainment?ref=catnav-11049
+						 								     (main category)
+
+						 Output:
+						 			Main Category name is  toys and entertainment
+
+
+
+			Topic : For Loop			 			
+				
+				Task 5 :For Loop Intro 	 				
+
+
+						- Print out Cybertek's characters one by one  
+				
+				
+				Task 6 : Count upper, lower, and numbers
+
+									        
+					        Given a String, find and print how many uppercase letter, lowercase letter, and number are in the String.
+					        
+					        Input: 2juMp41EEkd4s4
+					       
+					        Output:
+					        3 uppercase letters   result : MEE
+					        6 lowercase letters   result : jupkds
+					        5 numbers             result : 24144
+				
+
+				Task 7 :  Camel Case
+							    
+							Given a String of words that follow Camel Case convention. 
+							
+							Every word, except the first word, begin with an uppercase letter. The other characters of the word will be lowercase
+							
+					    Task 1  : Find and print how many words are in the given String.		
+								        
+								        Input: thisHasManyWordsToFind Output: 6
+
+					    Task 2  : Find and print each words are in the given String. 			
+								       
+								        Input: thisHasManyWordsToFind 
+								        Output: This 
+								        		Has
+								        		Many
+								        		Words
+								        		To
+								        		Find
+			   
+			    
+							     
+
+
+
+

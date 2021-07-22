@@ -1,0 +1,124 @@
+06/21/2021
+topics: Loop Intro
+		for loop
+
+package name: day19_Loops
+
+warmup tasks:
+	1. ask the user to enter a word. the word must be five characters long and print the word without the duplicated characters, but if the word is less than five characters long, print "Too Short." and if the word is more than five characters long, print "Too long."
+
+		Ex:
+			input: 
+				aabbc
+
+			 output:
+			 	abc
+
+Loop: repeated statements
+
+for loop: gets executed if the condition is true, and stops if the condition is false
+		
+		for(initialization; Condition; Iterator){
+				statements;
+		}
+
+		initialization: starting point
+					int i = 0;
+
+		Condition: ending point of the loop. created based on the initialization
+						i < 5
+
+		Iterator: Co-related to the condition. responsioble for making the condition false
+						i++: 0, 1, 2, 3, 4, 5
+
+ come back at 11:17 am	EST
+ 
+
+
+
+
+
+Task:
+1. Write a method which prints out the numbers from 1 to 100 butfor numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number,  for numbers which are a multiple of 3, print "FIN" instead of the number and for numbers which are a multiple of 5, print "RA" instead of the number. 
+        
+        ex: 
+            output:
+                1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN ....
+
+
+
+2.  print the following shape:
+                * * * * * * 
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+
+3. print the following shape:
+
+                        * * * * * *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        *         *
+                        * * * * * *
+
+    Hint: in the loop body , only place the statements that you need to repeat
+
+
+4. write a program that can calculate the sum of all numbers between 1 to 100
+
+5. write a program that can calculate the sum of all numbers between 1 to any given number
+	        ex:
+	            input: 100
+	            output: 5050
+
+	            input: 50
+	            output: 1275
+	            
+	            input : 200
+	            output : 20100
+
+
+lunch tasks:
+	6. ask user to enter a number 10 times . find the sum of 10 numbers
+
+	7. ask user to enter a number for 5 times,  then return the maximum number
+
+	8. ask user to enter a number for 5 times,  then return the minimum number
+
+	9. String reverse
+
+	10. Palindrome
+
+	11. remove duplicates
+
+	12. find the unique charcters
+
+
+
+come back at 2:10pm
+
+Canvas -> Java -> Module -> day19 -> String short quiz due by 2:30 pm
+
+
+take home assignment:
+	1. ask the user to enter 5 strings, return the string las the maximum length
+
+	2. ask the user to enter 5 strings, return the string las the minimum length
+
+
+
+
+come back at 4:30 pm
+
+
+
+ 					

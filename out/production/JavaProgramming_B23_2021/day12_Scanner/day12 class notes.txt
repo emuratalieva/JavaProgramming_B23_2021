@@ -1,0 +1,76 @@
+06/08/2021
+Topics: Scanner Intro
+
+package name: day12_Scanner
+
+Warmup tasks:
+	1. a char variable named grade is given. use switch statement to print the following messages:
+                if the grade is 'A' print excellent
+                if the grade is 'B' print great job
+                if the grade is 'C' print good
+                if the grade is 'D' print passed
+                if the grade is 'F' print failed
+                other wise print invalid
+
+	2. write a program that can print any number between 1 ~ 10, but for number which is a multiple of 3 print "Fizz" instead of the number and for number which is a multiple of 5, print "Buzz" instead of the number, and for number which is a multiple of both 3 and 5 both print "FizBuzz" instead of the number. 
+
+                  MUST use switch statement    
+
+
+
+            divisble by 3:  3, 6, 9
+            divisble by 5:  5, 10
+
+
+Scanner class: used for getting user inputs
+		
+		presented in "java.util" package
+
+		syntax of import statement:
+
+			import packageName.className
+
+ 			import java.util.Scanner; 
+
+
+		declare scanner:
+			Scanner variableName = new Scanner(System.in);
+
+scanner methods:
+	
+	nextInt(): allows user to enter integer ONLY
+	nextDouble(): allows user to enter decimals 
+
+
+task: 
+	DaysInWeek: 1~7
+	NameOfMonth: 1~12
+	GradeReport: score
+				 grades: A, B, C, D, F
+
+	Circle: find the area and perimeter of circle 
+
+
+come back at 12:45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

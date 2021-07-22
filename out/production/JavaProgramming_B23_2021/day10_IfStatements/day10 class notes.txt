@@ -1,0 +1,172 @@
+06/04/2021
+Topics: Nested If
+		Ternary
+		Local Variables
+		Java Recap
+
+Package name: day10_IfStatements
+
+
+warmup Tasks:
+	1.  Campus time: User enters a time(hour in 24 hour format) and will be able to find out if the campus is open or not.
+			Campus is open from 8 am(8) to 11 pm (23) If user enters a time within the open time they should see message: “open” 
+			but if the time entered is outside of operating hours they should see: “ closed”
+
+	2. Write a program that can calculate the salary after tax based on the following requirments.
+				the tax rates are:
+						35% for salary of 130K or more
+						30% for salary of 100K to 129k
+						25% for salary of 80K to 99K
+						20% for salary of 79K or less
+
+				in addition,if the person is married, he/she will pay 5% less tax
+
+	3. Write a function which prints out the number. but for number which is a multiple of 3, print "FIN" instead of the number
+    and for number which is a multiple of 5, print "RA" instead of the number. and for number which is a multiple of both 3 and 5, print "FINRA" instead of the number.
+    		ex:
+    			number = 3
+
+    		output:
+    			FIN
+
+    			number = 10
+
+			output:
+				RA
+
+				number = 15
+
+			output:
+				FINRA
+
+				number = 8;
+
+			output:
+				8
+
+Tasks:
+	You are diving in the ocean. Your oxygen tank has a certain level (number) and you must print a message based on the level:
+				Above 90 -  Your tank is full
+				Above 80 -  Still okay
+				Above 70 -  Don't go too far
+				Above 60 -  Start to head back
+				Above 50 -  Be careful now you at at 50%
+
+				USE ONE PRINT STATEMENT ONLY
+	
+
+If statemnts: if the condition is true, the block gets executed
+	single if: 1 option/possibilities
+	if & else": 2 options/possibilities
+	multi-branch if: 3 or more options/possibilities
+	nested if: pre-conditions
+
+Nested If: if condition can be evaluated to multiple scenario
+
+		if(pre-condition){
+
+			if(condition1){
+				statement1
+			}else{
+				statement2
+			}	
+
+		}else{
+			 statement3
+		}
+
+
+		statement1: precondition & condition1 MUST be true
+		statement2: pre-condition MUST be true & condition1 is false
+		statement3: precondition MUST be false
+
+
+
+Tasks:
+	1. NamesOfMonth:  1~12
+	2. ConvertNumberToWords: 0~9
+
+	3. Campus time: User enters a time(hour in 24 hour format) and will be able to find out if the campus is open or not 
+			Campus is open from 8 am(8) to 11 pm (23)
+			If user enters a time within the open time they should see message : “open” but if the time entered is outside of operating hours they should see: “ closed”
+			If the user enters an invalid hour (negative number or more than 24 hours) they should see an error message: “invalid time”
+
+	4. Your school goes on a Field trip each year. The place you go will be based on your grade. Given some grade number (1-6) figure out the details of your field trip. Print the information at the end.
+
+			    Data based on grade:
+
+			        grade - 1
+			        location -  Apple orchard
+			        number of groups - 3
+			        teacher in charge - Ms. Smith
+
+			        grade - 2
+			        location - Zoo
+			        number of groups - 7
+			        teacher in charge - Mr. Lee
+
+			        grade - 3
+			        location - Aquarium
+			        number of groups - 5
+			        teacher in charge - Ms. Wilson
+
+			        grade - 4
+			        location - Movie theater  
+			        number of groups - 2
+			        teacher in charge - Ms. Reyes
+
+			        grade - 5
+			        location - Museum 
+			        number of groups - 5
+			        teacher in charge - Ms. Lela 
+
+			        grade - 6
+			        location - Six Flags
+			        number of groups - 8
+			        teacher in charge - Mr. Watt
+
+
+Ternary: shortcut of if statement
+
+		int number = 100;
+		String result = "";
+
+		if(number%2==0){ 
+			result = "Even";
+		}else{ 
+			result = "Odd";
+		}
+
+	String result = (number%2==0) ? "Even" : "Odd";
+
+	(condition)? means if yeyword
+	: means the else keyword
+	:(condition)? means else if
+
+	if:  ()?
+	else:  :
+	else if:  :()?
+
+
+Ternary Tasks:
+	EligibleToVote
+	EligibleToBuyAlcohol
+	PassOrFailed
+
+
+
+
+Next Week: 
+	switch
+	scanner
+
+
+
+
+
+
+
+
+
+
+	

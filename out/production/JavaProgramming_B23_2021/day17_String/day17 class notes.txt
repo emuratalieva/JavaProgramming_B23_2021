@@ -1,0 +1,82 @@
+06/17/2021
+Topics: String methods continue
+
+package name: day17_String
+
+Warmup tasks:
+	1.Ask the user enter an account number (String). Check if these account number is valid.
+	    > If the account number begins with a “2” the account number should be 7 characters long
+	    > If the account number begins with a “5” the account number should be 10 characters long
+	    —> If the account number does not begin with a 2 or a 5 OR the account number lengths do not meet the expected results print “Invalid account number”
+
+	2. write a program that can return the initials of the user
+	            ex:
+	                cybertek
+	                school
+	            output:
+	                C.S
+
+	3. write a program that can check if the first and last characters of the string are same
+	            ex:
+	                Level
+	            output:
+	                same
+
+	4. Ask the user to enter username and password, and username can be typed either in lowercase or uppercase. Still, the password must be exact to log in. write a program to check if the user entered username & passwords match with the saved username & password in the database. If it's, then print "Logged in successfully". Otherwise, print "Invalid username or password."
+
+			Assume that your username & password in the database are: 
+									Cybertek@gmail.com
+									Cybertek123
+			Ex:
+				username: CYBERTEK@Gmail.com
+				password: Cybertek123
+
+				output:
+					Logged in successfully
+
+ 
+String methods:
+	contains(str): checks if the given str is contained in the string. returns boolean  (has)
+
+				sentence = "My favorite programming languages are: C#, Java, JavaScript"   ;
+
+				sentence.contains("Python") //false
+
+
+	startsWith(str): checks if the string is started with given str. returns boolean
+			sentence = "Cybertek School is the best"
+
+			sentence.startsWith("Cybertek")
+
+
+	endsWith(str): checks if the string is ended with given str. returns boolean
+
+
+
+task:
+	1. write a program to verify if the gmail is valid
+			requirments:
+					a valid gmail account should end with @gmail.com
+
+	2. write a program that can check if the given website is valid website or not
+			starts with: www.
+			ends with: .com, .edu, .gov
+
+	3. ask the user to enter a word.
+        if the word ends with "ly", print "really???" ,  otherwise, print "never mind"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

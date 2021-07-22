@@ -1,0 +1,59 @@
+06/29/2021
+Topics: String mehods
+
+
+package names: day24_Arrays
+
+1. create string array, and store the names of your  class mates (10)
+            print the first three characters of each name
+
+2. given the following arrays:
+		 String [] names = {"Anna", "Nancy", "Sarah"};
+         int [] scores = {90, 75, 80};
+         char [] grades = new char[names.length];
+
+         write a program that can store the gardes of the students in the array named grades
+
+
+3. write a program that can print out the unique numbers from an array of integers
+        Ex:
+            int[] arr ={1,1,2,3,3,4}
+
+            output:
+                2 4
+
+
+4. Write a program that can reverse an array of integers
+		ex:
+			array = {1,2,3,4,5};
+
+		output:
+			reversedArray = {5,4,3,2,1};
+
+String methods: 
+	split(value): returns string array, splits the string by given value
+
+		sentence = I love Java programming
+		sentence.split(" "); ==> {"I", "love", "Java", "programming"}
+
+				programming Java love I
+
+
+	toCharArray(): returns char array
+
+				String str = "Cybertek";
+				str.toCharArray(); ===>   {'C', 'y', 'b', 'e', 'r', 't', 'e', 'k'}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

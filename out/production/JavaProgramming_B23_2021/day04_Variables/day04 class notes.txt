@@ -1,0 +1,91 @@
+05/24/2021
+Topics: Variables Continue: char, boolean
+							String
+		variables Naming rule
+		Concatenation 
+
+packageName: day04_Variables
+
+Warmup tasks:
+	0. (only for those who haven't registered repl.it yet)
+
+        go to Canvas -> B23 Java Programming -> Modules -> Programming lab
+        			use the first link to sign up for a repl.it account
+        						(Make sure to open your email and verified yoru account)
+
+        			use the second link to join "JavaCourseB23" repl.it team        	
+
+	1. create a class named Varibales_Practice & declear the following variables:
+                            num1 = 100;
+                            num2 = 10000;
+                            num3 = 3.5;
+                            num4 = 2.5f;
+                            num5 = 999999999999;
+                            num6 = 850000;
+
+                print each of the variables above on the console
+
+    2. create a class called KgToPounds, and write a program that can convert the given Kg to pound and print the result
+            Ex: 
+               if kg = 10;
+                
+                output:
+                    22.0462 
+
+       		Hint: 1 kg = 2.2 pounds 
+
+    3. create a class called GalonsToLiters, and write a program that can convert the gallons tto 
+    		Ex:
+                galon = 10;
+
+           Hint: 1 gallon = 3.78541 liters
+
+
+
+how to create source folder:
+		right click Project -> new -> Directory
+		right click Directory -> Mar
+
+
+char: to store single character.  ''
+
+
+Primitives:
+	int: for all integers
+	double: for all decimals
+	char: single characters. ''
+	boolean: True/False
+
+
+non-primitives:
+	String: string of text. ""
+
+
+
+Task:
+	1. create a class named EmployeeInfo
+                1. declare the following variables:
+                    name, gender, age, companyName, jobTitle, isFullTime, isMarried, salary
+
+                2. full info of the employee
+                   
+                    
+Variable Naming rules:
+		1. MUST be unique
+		2. starts with letters
+		3. cannot have special characters other than _ and $
+		4. cannot be java reserved words
+		5. camelCase
+
+
+comapnyname
+companyName
+
+
+
+
+
+
+
+
+

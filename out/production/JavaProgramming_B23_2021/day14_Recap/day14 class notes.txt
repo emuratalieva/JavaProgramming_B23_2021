@@ -1,0 +1,122 @@
+06/11/2021
+Review Topics: 
+                If statements
+                Switch statement
+                Scanner
+
+package name: day14_Recap
+
+Warmup tasks:
+    1. PlaceAnOrder task:
+                Ask User to enter the prodcut name (multiple words)
+                Ask the user to enter the price  (double)
+                Ask the user to enter the quantity (int)
+                Ask the user to enter their first name (String, single word)
+
+            Print in the following format: 
+                Ex: 
+                    Input: "Apples" , 1.5, 5. "Luke"
+
+                    Output: 
+                        Luke, your order for 5 Apples has been places. Your total is 7.5.
+
+    2. Stock 
+        - Ask the user how many total shares they have already? (int)
+            -> If the user gives 0 or give a negative number none of the rest condition should be executed 
+
+        - Ask the user how much their total value in the stock market is (double)
+        - Ask the user to enter the name of the company they have the most shares in (String, multiple words)
+        
+        - Print in the following format: 
+            Ex: 
+                inputs: 100, 25000.5, Apple INC
+
+            "Your total stock market holding is $25000.5 which is made up of 100 shares. Apple INC is your company holdings"
+
+
+
+
+Scanner methods: allows the user to provide inputs
+    nextInt(): int
+    nextDouble(): double
+    nextBoolean(): boolean
+
+    next(): String. one word
+
+    nextLine(): String. two or more words
+
+    close()
+
+
+If statements: used for creating conditional statements
+        
+        single if: one condition
+        if & else: ONLY two conditions
+        multi-branch if: 3 or more conditions
+        nested if: pre-condition
+
+    Given a  char variable determine if the character is letter or digit or special character.
+            Ex: 'b'  --> letter
+                '9'  --> digit
+                '!'  --> special character
+
+
+
+    Given a number(int) determine and print how many digits it has.
+            - Condition: The number has to be between 1 and 100000, if it is not print "Invalid number"
+
+            Ex: 124 --> 3 digits
+                13213 --> 5 digits
+                883218 --> Invalid number
+                23 --> 2 digits
+                9 --> one digit
+                15 --> 2 digits
+
+
+lunch:
+     Given a number(byte) grade level determine and print which school type someone is in.
+            grade level and types are:
+                    1-5: Elementary school 
+                    6-8: Middle school
+                    9-12: High school
+                    13-16: College
+                    17-18: Grad School
+                    Other: Invalid grade level given
+
+
+    Switch:
+        Ask the user how many people they live with?
+            if user lives with Less than 3 people: print "Live with less than 3 people"
+            if the user lives with 3 - 6 people: print "Live with 3 - 6 people"
+            if the user lives with more than 6 people: print "Live with "more than 6 people"
+
+
+
+
+Scanner:
+        - - Ask the user to enter their height (double), shoe size (int), and if they like to wear hats (boolean). Print out the information 
+
+
+        - - Ask the user to enter the year, month number, and day they were born and print in the following format: 
+                "%month / day / year is your birthday "
+
+
+        - - Ask the user to enter their zipcode (long), the number of people they live with (byte), if they are married or not (boolean - true for married/false for not) and print the values in the following format:
+
+            Ex:
+                inputs: 31009, 4, false 
+
+                output:
+                     I see you are not married and live with 4 people in your house which is in the 31009 area!
+
+
+
+
+Next week:
+    String manipulation
+    Loops
+
+
+
+
+

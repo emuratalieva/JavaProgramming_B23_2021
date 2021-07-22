@@ -1,0 +1,94 @@
+07/12/2021
+Review Topics:  
+				Loops (for & while & for each)
+				Branching statements (break, continue, return, System.exit)
+				Arrays & Arrays Utility (single dimentional)
+				Methods: void & return methods
+
+Package name: day30_Recap
+
+
+Loops: repeating
+
+	for loop: if we know the number of repeatings (fixed repeating)
+
+			      1              2         4
+		for( Initialization; condition; Iteration ) {
+			 		statement (3 if contion is true)
+		}
+
+
+	while loop:  repeated if statement
+
+		while(Condition){
+			statements
+		}
+
+
+	nested loop:  to repeat a loop
+
+
+Branching statments:
+	break: exits loop & switch
+	continue: skips the iteration
+	return: exits the method
+	System.exit
+
+
+
+Arrays: Fixed Data Structure. 
+		
+		int[] arr = new int[size];
+		int[] arr2 = {data1, data2..}
+
+
+
+
+for each loop: THERE MUST BE A DATA STRUCTURE
+
+				Iteration order is fixed ( first elemnt to last element)
+			
+
+			for(DataType  variableName   : Collection Of Data){
+
+			}
+
+
+
+Methods: function
+
+		public static returType methodName(parameters){
+				code fargments 
+		}
+
+		static: methods can be called through the class name
+
+		returnType: void, any dataType
+				void: does not return any data from the method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
